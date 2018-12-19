@@ -1,0 +1,56 @@
+g_i18n = {
+    MONEY_MAX_DISPLAY_VALUE = 999999999,
+    MONEY_MIN_DISPLAY_VALUE = -999999999,
+    fluidFactor = 1,
+    modEnvironments = {}, -- nMaxDepth reached
+    moneyUnit = 1,
+    powerFactorHP = 1,
+    powerFactorKW = 0.735499,
+    texts = {}, -- nMaxDepth reached
+    useAcre = false,
+    useFahrenheit = false,
+    useMiles = false,
+}
+
+function g_i18n.addModI18N() end
+function g_i18n.class() end
+function g_i18n.consoleCommandVerifyAll() end
+function g_i18n.convertText() end
+function g_i18n.copy() end
+function g_i18n.formatArea() end
+function g_i18n.formatFluid() end
+function g_i18n.formatMinutes() end
+function g_i18n.formatMoney() end
+function g_i18n.formatNumber() end
+function g_i18n.formatTemperature() end
+function g_i18n.formatVolume() end
+function g_i18n.getArea() end
+function g_i18n.getAreaUnit() end
+function g_i18n.getCurrency() end
+function g_i18n.getCurrencyFactor() end
+function g_i18n.getCurrencySymbol() end
+function g_i18n.getCurrentDate() end
+function g_i18n.getDecimalSeparator() end
+function g_i18n.getDistance() end
+function g_i18n.getFluid() end
+function g_i18n.getMeasuringUnit() end
+function g_i18n.getPlattformText() end
+function g_i18n.getPower() end
+function g_i18n.getSpeed() end
+function g_i18n.getSpeedMeasuringUnit() end
+function g_i18n.getTemperature() end
+function g_i18n.getTemperatureUnit() end
+function g_i18n.getText() end
+function g_i18n.getVolume() end
+function g_i18n.getVolumeUnit() end
+function g_i18n.hasText() end
+function g_i18n.isa() end
+function g_i18n.load() end
+function g_i18n.loadEntriesFromXML() end
+function g_i18n.new() end
+function g_i18n.setMoneyUnit() end
+function g_i18n.setText() end
+function g_i18n.setUseAcre() end
+function g_i18n.setUseFahrenheit() end
+function g_i18n.setUseMiles() end
+function g_i18n.superClass() end

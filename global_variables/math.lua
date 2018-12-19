@@ -1,0 +1,34 @@
+math = {
+    huge = inf,
+    pi = 3.1415926535898,
+}
+
+function math.abs() end
+function math.acos() end
+function math.asin() end
+function math.atan() end
+function math.atan2() end
+function math.ceil() end
+function math.cos() end
+function math.cosh() end
+function math.deg() end
+function math.exp() end
+function math.floor() end
+function math.fmod() end
+function math.frexp() end
+function math.ldexp() end
+function math.log() end
+function math.log10() end
+function math.max() end
+function math.min() end
+function math.mod() end
+function math.modf() end
+function math.pow() end
+function math.rad() end
+function math.random() end
+function math.randomseed() end
+function math.sin() end
+function math.sinh() end
+function math.sqrt() end
+function math.tan() end
+function math.tanh() end

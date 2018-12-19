@@ -1,0 +1,22 @@
+g_playerColors = {
+    [1] = {}, -- nMaxDepth reached
+    [14] = {}, -- nMaxDepth reached
+    [13] = {}, -- nMaxDepth reached
+    [12] = {}, -- nMaxDepth reached
+    [11] = {}, -- nMaxDepth reached
+    [15] = {}, -- nMaxDepth reached
+    [17] = {}, -- nMaxDepth reached
+    [16] = {}, -- nMaxDepth reached
+    [18] = {}, -- nMaxDepth reached
+    [19] = {}, -- nMaxDepth reached
+    [10] = {}, -- nMaxDepth reached
+    [8] = {}, -- nMaxDepth reached
+    [3] = {}, -- nMaxDepth reached
+    [2] = {}, -- nMaxDepth reached
+    [9] = {}, -- nMaxDepth reached
+    [4] = {}, -- nMaxDepth reached
+    [6] = {}, -- nMaxDepth reached
+    [5] = {}, -- nMaxDepth reached
+    [7] = {}, -- nMaxDepth reached
+    [20] = {}, -- nMaxDepth reached
+}
