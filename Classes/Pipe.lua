@@ -1,0 +1,45 @@
+---@class Pipe
+Pipe = {} -- empty
+
+function Pipe.actionEventTogglePipe() end
+function Pipe.getCanBeSelected() end
+function Pipe.getCanBeTurnedOn() end
+function Pipe.getCanToggleDischargeToObject() end
+function Pipe.getIsDischargeNodeActive() end
+function Pipe.getIsFoldAllowed() end
+function Pipe.getIsMovingToolActive() end
+function Pipe.getIsNextCoverStateAllowed() end
+function Pipe.getIsPipeStateChangeAllowed() end
+function Pipe.getPipeDischargeNodeIndex() end
+function Pipe.getTurnedOnNotAllowedWarning() end
+function Pipe.handleDischarge() end
+function Pipe.handleDischargeRaycast() end
+function Pipe.initSpecialization() end
+function Pipe.loadCoverFromXML() end
+function Pipe.loadMovingToolFromXML() end
+function Pipe.loadPipeNodes() end
+function Pipe.loadUnloadingTriggers() end
+function Pipe.onDelete() end
+function Pipe.onDeletePipeObject() end
+function Pipe.onDischargeStateChanged() end
+function Pipe.onLoad() end
+function Pipe.onMovingToolChanged() end
+function Pipe.onPostLoad() end
+function Pipe.onReadStream() end
+function Pipe.onReadUpdateStream() end
+function Pipe.onRegisterActionEvents() end
+function Pipe.onUpdate() end
+function Pipe.onUpdateTick() end
+function Pipe.onWriteStream() end
+function Pipe.onWriteUpdateStream() end
+function Pipe.prerequisitesPresent() end
+function Pipe.registerEventListeners() end
+function Pipe.registerFunctions() end
+function Pipe.registerOverwrittenFunctions() end
+function Pipe.saveToXMLFile() end
+function Pipe.setPipeState() end
+function Pipe.unloadingTriggerCallback() end
+function Pipe.updateActionEventText() end
+function Pipe.updateBendingRegulationNodes() end
+function Pipe.updateNearestObjectInTriggers() end
+function Pipe.updatePipeNodes() end

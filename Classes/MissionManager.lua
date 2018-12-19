@@ -1,0 +1,72 @@
+---@class MissionManager
+MissionManager = {
+    AI_PRICE_MULTIPLIER = 1,
+    CATEGORY_FIELD = 1,
+    CATEGORY_GRASS_FIELD = 3,
+    CATEGORY_TRANSPORT = 2,
+    MAX_MISSIONS = 25,
+    MAX_MISSIONS_PER_GENERATION = 4,
+    MAX_TRANSPORT_MISSIONS = 2,
+    MAX_TRIES_PER_GENERATION = 5,
+    MISSION_GENERATION_INTERVAL = 14400000,
+}
+
+function MissionManager.addMissionToMissionMap() end
+function MissionManager.addTransportMissionTrigger() end
+function MissionManager.assignGenerationTime() end
+function MissionManager.canMissionStillRun() end
+function MissionManager.cancelMission() end
+function MissionManager.cancelMissionOnField() end
+function MissionManager.class() end
+function MissionManager.consoleGenerateFieldMission() end
+function MissionManager.consoleHarvestField() end
+function MissionManager.consoleHarvestTests() end
+function MissionManager.consoleLoadAllFieldMissionVehicles() end
+function MissionManager.convertWorldToAccessPosition() end
+function MissionManager.copy() end
+function MissionManager.createMissionMap() end
+function MissionManager.delete() end
+function MissionManager.deleteMission() end
+function MissionManager.destroyMissionMap() end
+function MissionManager.dismissMission() end
+function MissionManager.generateMissions() end
+function MissionManager.generateNewFieldMission() end
+function MissionManager.getActiveMissions() end
+function MissionManager.getFieldData() end
+function MissionManager.getFreeActiveMissionId() end
+function MissionManager.getIsAnyMissionActive() end
+function MissionManager.getIsMissionWorkAllowed() end
+function MissionManager.getMissionAtWorldPosition() end
+function MissionManager.getMissionForActiveMissionId() end
+function MissionManager.getMissionMapValue() end
+function MissionManager.getMissionType() end
+function MissionManager.getMissionTypeById() end
+function MissionManager.getMissionsList() end
+function MissionManager.getRandomVehicleGroup() end
+function MissionManager.getTransportMissionConfig() end
+function MissionManager.getTransportMissionConfigById() end
+function MissionManager.getVehicleGroupFromIdentifier() end
+function MissionManager.hasFarmActiveMission() end
+function MissionManager.initDataStructures() end
+function MissionManager.isa() end
+function MissionManager.loadFromXMLFile() end
+function MissionManager.loadMapData() end
+function MissionManager.loadMissionVehicles() end
+function MissionManager.loadNextVehicle() end
+function MissionManager.loadTransportMissions() end
+function MissionManager.new() end
+function MissionManager.onMissionDeleted() end
+function MissionManager.registerMissionType() end
+function MissionManager.removeMissionFromList() end
+function MissionManager.removeMissionFromMissionMap() end
+function MissionManager.removeTransportMissionTrigger() end
+function MissionManager.saveToXMLFile() end
+function MissionManager.setMissionMapForMission() end
+function MissionManager.startMission() end
+function MissionManager.superClass() end
+function MissionManager.testHarvestField() end
+function MissionManager.unloadMapData() end
+function MissionManager.unregisterMissionType() end
+function MissionManager.update() end
+function MissionManager.updateMissions() end
+function MissionManager.validateMissionOnField() end

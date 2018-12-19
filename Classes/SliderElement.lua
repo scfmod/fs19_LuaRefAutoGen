@@ -1,0 +1,46 @@
+---@class SliderElement
+SliderElement = {
+    DIRECTION_X = 1,
+    DIRECTION_Y = 2,
+}
+
+function SliderElement.addElement() end
+function SliderElement.applyScreenAlignment() end
+function SliderElement.applySliderAspectScale() end
+function SliderElement.callOnChanged() end
+function SliderElement.canReceiveFocus() end
+function SliderElement.class() end
+function SliderElement.copy() end
+function SliderElement.copyAttributes() end
+function SliderElement.delete() end
+function SliderElement.draw() end
+function SliderElement.getMaxValue() end
+function SliderElement.getMinValue() end
+function SliderElement.getValue() end
+function SliderElement.isa() end
+function SliderElement.keyEvent() end
+function SliderElement.loadFromXML() end
+function SliderElement.loadProfile() end
+function SliderElement.mouseEvent() end
+function SliderElement.new() end
+function SliderElement.onFocusActivate() end
+function SliderElement.onFocusEnter() end
+function SliderElement.onFocusLeave() end
+function SliderElement.onGuiSetupFinished() end
+function SliderElement.onListUpdate() end
+function SliderElement.onScrollDown() end
+function SliderElement.onScrollUp() end
+function SliderElement.setAlpha() end
+function SliderElement.setDataElement() end
+function SliderElement.setMaxValue() end
+function SliderElement.setMinValue() end
+function SliderElement.setSize() end
+function SliderElement.setSliderSize() end
+function SliderElement.setSliderVisible() end
+function SliderElement.setValue() end
+function SliderElement.shouldFocusChange() end
+function SliderElement.superClass() end
+function SliderElement.updateAbsolutePosition() end
+function SliderElement.updateSliderButtons() end
+function SliderElement.updateSliderLimits() end
+function SliderElement.updateSliderPosition() end

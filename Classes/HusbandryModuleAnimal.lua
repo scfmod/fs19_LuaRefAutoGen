@@ -1,0 +1,61 @@
+---@class HusbandryModuleAnimal
+HusbandryModuleAnimal = {
+    SEND_NUM_BITS = 9,
+    TROUGH_CAPACITY = 10,
+}
+
+function HusbandryModuleAnimal.addAnimals() end
+function HusbandryModuleAnimal.addPendingAnimal() end
+function HusbandryModuleAnimal.addRideable() end
+function HusbandryModuleAnimal.addSingleAnimal() end
+function HusbandryModuleAnimal.class() end
+function HusbandryModuleAnimal.cleanAnimal() end
+function HusbandryModuleAnimal.copy() end
+function HusbandryModuleAnimal.delete() end
+function HusbandryModuleAnimal.finalizePlacement() end
+function HusbandryModuleAnimal.getAnimalName() end
+function HusbandryModuleAnimal.getAnimalType() end
+function HusbandryModuleAnimal.getAnimals() end
+function HusbandryModuleAnimal.getCanBeRidden() end
+function HusbandryModuleAnimal.getDirtFactor() end
+function HusbandryModuleAnimal.getFillType() end
+function HusbandryModuleAnimal.getIsInUse() end
+function HusbandryModuleAnimal.getMaxNumOfAnimals() end
+function HusbandryModuleAnimal.getMinutesUntilNextAnimal() end
+function HusbandryModuleAnimal.getNumOfAnimals() end
+function HusbandryModuleAnimal.getReproductionTimePerDay() end
+function HusbandryModuleAnimal.getSupportsRiding() end
+function HusbandryModuleAnimal.getSupportsSubType() end
+function HusbandryModuleAnimal.getTypedAnimals() end
+function HusbandryModuleAnimal.hideAnimal() end
+function HusbandryModuleAnimal.initDataStructures() end
+function HusbandryModuleAnimal.isAnimalDirty() end
+function HusbandryModuleAnimal.isRideableInOnHusbandryGround() end
+function HusbandryModuleAnimal.isa() end
+function HusbandryModuleAnimal.load() end
+function HusbandryModuleAnimal.loadFromXMLFile() end
+function HusbandryModuleAnimal.new() end
+function HusbandryModuleAnimal.onDayChanged() end
+function HusbandryModuleAnimal.onHourChanged() end
+function HusbandryModuleAnimal.onMissionStarted() end
+function HusbandryModuleAnimal.onQuarterHourChanged() end
+function HusbandryModuleAnimal.processAnimalChanges() end
+function HusbandryModuleAnimal.readStream() end
+function HusbandryModuleAnimal.readUpdateStream() end
+function HusbandryModuleAnimal.removeAnimals() end
+function HusbandryModuleAnimal.removeRideable() end
+function HusbandryModuleAnimal.removeSingleAnimal() end
+function HusbandryModuleAnimal.renameAnimal() end
+function HusbandryModuleAnimal.saveToXMLFile() end
+function HusbandryModuleAnimal.setAnimalDirt() end
+function HusbandryModuleAnimal.showAnimal() end
+function HusbandryModuleAnimal.superClass() end
+function HusbandryModuleAnimal.update() end
+function HusbandryModuleAnimal.updateAnimalParameters() end
+function HusbandryModuleAnimal.updateBreeding() end
+function HusbandryModuleAnimal.updateFitness() end
+function HusbandryModuleAnimal.updateHealth() end
+function HusbandryModuleAnimal.updateVisualAnimals() end
+function HusbandryModuleAnimal.updateVisualDirt() end
+function HusbandryModuleAnimal.writeStream() end
+function HusbandryModuleAnimal.writeUpdateStream() end

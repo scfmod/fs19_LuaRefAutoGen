@@ -1,0 +1,72 @@
+---@class MPLoadingScreen
+MPLoadingScreen = {
+    CONTROLS = {
+        BUTTON_DELETE_PC = 'buttonDeletePC',
+        BUTTON_OK_PC = 'buttonOkPC',
+        GAMEPLAY_HINT_TEXT = 'gameplayHintText',
+        LOADING_STATUS_TEXT = 'loadingStatusText',
+        MAP_NAME_TEXT = 'mapNameText',
+        MAP_SELECTION_PREVIEW = 'mapSelectionPreview',
+        MPLOADING_ANIMATION = 'mpLoadingAnimation',
+        TIP_STATE_BOX = 'tipStateBox',
+    },
+    DEFAULT_MAP_PREVIEW_FILENAME = 'dataS2/menu/hud/savegameBlank.png',
+    NUM_GAMEPLAY_HINTS = 3,
+    STATE_CONNECTING = 1,
+    STATE_LOADING = 4,
+    STATE_NONE = 0,
+    STATE_PORT_TESTING = 7,
+    STATE_READY = 6,
+    STATE_SYNCHRONIZING = 3,
+    STATE_WAIT_FOR_ACCEPT = 2,
+    STATE_WAIT_FOR_MISSION = 5,
+}
+
+function MPLoadingScreen.cancelLoading() end
+function MPLoadingScreen.class() end
+function MPLoadingScreen.cleanup() end
+function MPLoadingScreen.copy() end
+function MPLoadingScreen.dlcProblemOnQuitOk() end
+function MPLoadingScreen.initializeLoading() end
+function MPLoadingScreen.isa() end
+function MPLoadingScreen.loadGameRelatedData() end
+function MPLoadingScreen.loadSavegameAndStart() end
+function MPLoadingScreen.loadWithConnection() end
+function MPLoadingScreen.modSortFunc() end
+function MPLoadingScreen.new() end
+function MPLoadingScreen.onClickCancel() end
+function MPLoadingScreen.onClickOk() end
+function MPLoadingScreen.onClose() end
+function MPLoadingScreen.onCreate() end
+function MPLoadingScreen.onCreatingGame() end
+function MPLoadingScreen.onFinishedReceivingDynamicData() end
+function MPLoadingScreen.onGuiSetupFinished() end
+function MPLoadingScreen.onMasterServerConnectionFailed() end
+function MPLoadingScreen.onMasterServerConnectionReady() end
+function MPLoadingScreen.onNatPunchFailed() end
+function MPLoadingScreen.onNatPunchSuceeded() end
+function MPLoadingScreen.onOkSavegameLoadFailed() end
+function MPLoadingScreen.onOpen() end
+function MPLoadingScreen.onReadyToStart() end
+function MPLoadingScreen.onSaveGameLoadingFinished() end
+function MPLoadingScreen.onSavegameLoaded() end
+function MPLoadingScreen.onServerInfoDetails() end
+function MPLoadingScreen.onServerInfoDetailsFailed() end
+function MPLoadingScreen.onWaitingForAccept() end
+function MPLoadingScreen.onWaitingForDynamicData() end
+function MPLoadingScreen.onYesNoSavegameCorrupted() end
+function MPLoadingScreen.reloadAsNewSavegame() end
+function MPLoadingScreen.setButtonState() end
+function MPLoadingScreen.setDynamicDataPercentage() end
+function MPLoadingScreen.setGameplayHint() end
+function MPLoadingScreen.setMapTitleAndPreview() end
+function MPLoadingScreen.setMissionInfo() end
+function MPLoadingScreen.setStatusText() end
+function MPLoadingScreen.showFailedToConnectDialog() end
+function MPLoadingScreen.showPortTesting() end
+function MPLoadingScreen.startClient() end
+function MPLoadingScreen.startLocal() end
+function MPLoadingScreen.startServer() end
+function MPLoadingScreen.superClass() end
+function MPLoadingScreen.unloadGameRelatedData() end
+function MPLoadingScreen.update() end

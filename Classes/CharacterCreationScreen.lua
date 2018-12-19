@@ -1,0 +1,69 @@
+---@class CharacterCreationScreen
+CharacterCreationScreen = {
+    COLOR_ELEMENT_NAME = 'colorImage',
+    CONTROLS = {
+        BODY_OPTION = 'bodyOption',
+        BUTTON_ROT_LEFT = 'buttonLeft',
+        BUTTON_ROT_RIGHT = 'buttonRight',
+        CHANGE_NAME_BUTTON = 'changeNameButton',
+        CHARACTER_NAME_INPUT = 'characterNameInput',
+        CHARACTER_SCENE = 'sceneRender',
+        CHARACTER_SETTINGS_LAYOUT = 'characterSettingsLayout',
+        COLOR_BUTTON_LAYOUT = 'colorButtonLayout',
+        COLOR_BUTTON_TEMPLATE = 'colorButtonTemplate',
+        CONTINUE_BUTTON = 'continueButton',
+        EDIT_BUTTON = 'editButton',
+        GLASSES_OPTION = 'accessoryOption',
+        HAIR_OPTION = 'hairOption',
+        HAT_OPTION = 'hatOption',
+        VEST_OPTION = 'jacketOption',
+    },
+    ROTATION_STEP_SIZE = 0.01,
+}
+
+function CharacterCreationScreen.class() end
+function CharacterCreationScreen.copy() end
+function CharacterCreationScreen.createColors() end
+function CharacterCreationScreen.createIdleAnimation() end
+function CharacterCreationScreen.deleteAnimation() end
+function CharacterCreationScreen.focusLinkColorButtons() end
+function CharacterCreationScreen.isa() end
+function CharacterCreationScreen.loadAccessoryFinished() end
+function CharacterCreationScreen.loadCharacterFinished() end
+function CharacterCreationScreen.loadClothing() end
+function CharacterCreationScreen.loadHatFinished() end
+function CharacterCreationScreen.loadPlayer() end
+function CharacterCreationScreen.loadPlayers() end
+function CharacterCreationScreen.new() end
+function CharacterCreationScreen.onChangeAccessory() end
+function CharacterCreationScreen.onChangeBody() end
+function CharacterCreationScreen.onChangeHairStyle() end
+function CharacterCreationScreen.onChangeHat() end
+function CharacterCreationScreen.onChangeJacket() end
+function CharacterCreationScreen.onClickActivate() end
+function CharacterCreationScreen.onClickColorButton() end
+function CharacterCreationScreen.onClickOk() end
+function CharacterCreationScreen.onClose() end
+function CharacterCreationScreen.onCreate() end
+function CharacterCreationScreen.onEnterPressedCharacterName() end
+function CharacterCreationScreen.onEscPressedCharacterName() end
+function CharacterCreationScreen.onFocusColor() end
+function CharacterCreationScreen.onLeaveColor() end
+function CharacterCreationScreen.onNameInputFocus() end
+function CharacterCreationScreen.onNameInputLeave() end
+function CharacterCreationScreen.onOpen() end
+function CharacterCreationScreen.onRenderLoad() end
+function CharacterCreationScreen.resetSelection() end
+function CharacterCreationScreen.setCharacterIndex() end
+function CharacterCreationScreen.setHatHairNodeVisibility() end
+function CharacterCreationScreen.setIsMultiplayer() end
+function CharacterCreationScreen.setMenuTexts() end
+function CharacterCreationScreen.showChangeNameButton() end
+function CharacterCreationScreen.superClass() end
+function CharacterCreationScreen.update() end
+function CharacterCreationScreen.updateCharacter() end
+function CharacterCreationScreen.updateCharacterOptions() end
+function CharacterCreationScreen.updateCharacterWithSettings() end
+function CharacterCreationScreen.updateOkButton() end
+function CharacterCreationScreen.updatePossiblePlayerOptions() end
+function CharacterCreationScreen.verifyCharacterName() end

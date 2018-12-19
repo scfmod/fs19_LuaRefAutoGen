@@ -1,0 +1,45 @@
+---@class Plow
+Plow = {} -- empty
+
+function Plow.actionEventLimitToField() end
+function Plow.actionEventTurn() end
+function Plow.doCheckSpeedLimit() end
+function Plow.getAIInvertMarkersOnTurn() end
+function Plow.getCanAIImplementContinueWork() end
+function Plow.getCanBeSelected() end
+function Plow.getDefaultSpeedLimit() end
+function Plow.getDirtMultiplier() end
+function Plow.getIsFoldAllowed() end
+function Plow.getIsFoldMiddleAllowed() end
+function Plow.getIsPlowRotationAllowed() end
+function Plow.getIsSpeedRotatingPartActive() end
+function Plow.getIsWorkAreaActive() end
+function Plow.getSpeedRotatingPartDirection() end
+function Plow.getWearMultiplier() end
+function Plow.initSpecialization() end
+function Plow.loadSpeedRotatingPartFromXML() end
+function Plow.loadWorkAreaFromXML() end
+function Plow.onAIImplementTurnProgress() end
+function Plow.onDeactivate() end
+function Plow.onDelete() end
+function Plow.onEndWorkAreaProcessing() end
+function Plow.onFinishAnimation() end
+function Plow.onLoad() end
+function Plow.onPostAttach() end
+function Plow.onPostLoad() end
+function Plow.onPreDetach() end
+function Plow.onReadStream() end
+function Plow.onRegisterActionEvents() end
+function Plow.onStartAnimation() end
+function Plow.onStartWorkAreaProcessing() end
+function Plow.onUpdate() end
+function Plow.onWriteStream() end
+function Plow.prerequisitesPresent() end
+function Plow.processPlowArea() end
+function Plow.registerEventListeners() end
+function Plow.registerFunctions() end
+function Plow.registerOverwrittenFunctions() end
+function Plow.saveToXMLFile() end
+function Plow.setPlowLimitToField() end
+function Plow.setRotationCenter() end
+function Plow.setRotationMax() end

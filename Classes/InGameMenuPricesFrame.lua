@@ -1,0 +1,81 @@
+---@class InGameMenuPricesFrame
+InGameMenuPricesFrame = {
+    CONTROLS = {
+        MAIN_BOX = 'mainBox',
+        PRICES_LIST_HORIZONTAL_SLIDER = 'pricesListSliderHorizontal',
+        PRICES_LIST_VERTICAL_SLIDER = 'pricesListSlider',
+        PRICES_TABLE = 'pricesTable',
+        PRICE_HEADERS = 'priceHeader',
+        TABLE_HEADER_BOX = 'tableHeaderBox',
+    },
+    DATA_BINDING = {
+        PRICE_TEMPLATE = 'price%s',
+        SELLING_POINT = 'sellingPoint',
+        SILO_CAPACITY_LABEL = 'siloCapacityLabel',
+        SILO_CAPACITY_TEMPLATE = 'capacity%s',
+    },
+    INPUT_CONTEXT_NAME = 'MENU_PRICES',
+    L10N_SYMBOL = {
+        REMOVE_MARKER = 'action_untag',
+        SET_MARKER = 'action_tag',
+        SILO_CAPACITY = 'ui_silos_totalCapacity',
+    },
+    MAX_NUM_FILLTYPES = 7,
+    MAX_NUM_PRICE_ROWS = 13,
+    PROFILE = {
+        LITERS = 'ingameMenuPriceRowLiters',
+        LITERS_LAST_ROW = 'ingameMenuPriceRowLitersLastRow',
+        PRICE_CELL_GREAT_DEMAND = 'ingameMenuPriceRowPriceCellGreatDemand',
+        PRICE_CELL_NEUTRAL = 'ingameMenuPriceRowPriceCell',
+        PRICE_CELL_TREND_DOWN = 'ingameMenuPriceRowPriceCellTrendDown',
+        PRICE_CELL_TREND_UP = 'ingameMenuPriceRowPriceCellTrendUp',
+        SELLING_POINT_CELL_NEUTRAL = 'ingameMenuPriceRowSellingPointCell',
+        SELLING_POINT_CELL_NONE = 'ingameMenuPriceRowSellingPointCellNone',
+        SELLING_POINT_CELL_TAGGED = 'ingameMenuPriceRowSellingPointCellTagged',
+        SILO_CAPACITY_LABEL = 'ingameMenuPriceRowSiloCapacity',
+        SILO_CAPACITY_VALUE = 'ingameMenuPriceRowSiloCapacityValue',
+        SILO_LITERS = 'ingameMenuPriceRowSiloLiters',
+        SILO_LITERS_LAST_ROW = 'ingameMenuPriceRowSiloLitersLastRow',
+        SILO_NAME = 'ingameMenuPriceRowSiloNameCell',
+        SILO_NAME_LAST_ROW = 'ingameMenuPriceRowSiloNameCellLastRow',
+    },
+}
+
+function InGameMenuPricesFrame.buildDataRow() end
+function InGameMenuPricesFrame.buildSiloRow() end
+function InGameMenuPricesFrame.class() end
+function InGameMenuPricesFrame.copy() end
+function InGameMenuPricesFrame.copyAttributes() end
+function InGameMenuPricesFrame.getMainElementPosition() end
+function InGameMenuPricesFrame.getMainElementSize() end
+function InGameMenuPricesFrame.getSelectedHotspot() end
+function InGameMenuPricesFrame.getStationName() end
+function InGameMenuPricesFrame.getStorageFillLevel() end
+function InGameMenuPricesFrame.initialSortSellingStations() end
+function InGameMenuPricesFrame.initialize() end
+function InGameMenuPricesFrame.isa() end
+function InGameMenuPricesFrame.makeTableFocusOverrideFunction() end
+function InGameMenuPricesFrame.new() end
+function InGameMenuPricesFrame.onButtonHotspot() end
+function InGameMenuPricesFrame.onChangedPriceSlider() end
+function InGameMenuPricesFrame.onClickPriceHeader() end
+function InGameMenuPricesFrame.onClickSellingPointHeader() end
+function InGameMenuPricesFrame.onDataBindPrice() end
+function InGameMenuPricesFrame.onDataBindSellingPoint() end
+function InGameMenuPricesFrame.onDataBindSiloCapacityLabel() end
+function InGameMenuPricesFrame.onDataBindSiloCapacityValue() end
+function InGameMenuPricesFrame.onDoubleClickPrices() end
+function InGameMenuPricesFrame.onFrameOpen() end
+function InGameMenuPricesFrame.onSelectionChanged() end
+function InGameMenuPricesFrame.reset() end
+function InGameMenuPricesFrame.setPriceData() end
+function InGameMenuPricesFrame.setSellingPointData() end
+function InGameMenuPricesFrame.setSellingStations() end
+function InGameMenuPricesFrame.setupPriceTable() end
+function InGameMenuPricesFrame.sortPrices() end
+function InGameMenuPricesFrame.superClass() end
+function InGameMenuPricesFrame.toggleInput() end
+function InGameMenuPricesFrame.updateHeaderIcons() end
+function InGameMenuPricesFrame.updateMenuButtons() end
+function InGameMenuPricesFrame.updatePriceTable() end
+function InGameMenuPricesFrame.updateVerticalSlider() end

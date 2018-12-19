@@ -1,0 +1,51 @@
+---@class Baler
+Baler = {
+    UNLOADING_CLOSED = 1,
+    UNLOADING_CLOSING = 4,
+    UNLOADING_OPEN = 3,
+    UNLOADING_OPENING = 2,
+}
+
+function Baler.actionEventUnloading() end
+function Baler.createBale() end
+function Baler.doCheckSpeedLimit() end
+function Baler.dropBale() end
+function Baler.finishBale() end
+function Baler.getCanBeSelected() end
+function Baler.getCanBeTurnedOn() end
+function Baler.getCanUnloadUnfinishedBale() end
+function Baler.getConsumingLoad() end
+function Baler.getDefaultSpeedLimit() end
+function Baler.getIsFoldAllowed() end
+function Baler.getIsSpeedRotatingPartActive() end
+function Baler.getIsWorkAreaActive() end
+function Baler.getTimeFromLevel() end
+function Baler.initSpecialization() end
+function Baler.isUnloadingAllowed() end
+function Baler.loadSpeedRotatingPartFromXML() end
+function Baler.moveBale() end
+function Baler.moveBales() end
+function Baler.onDeactivate() end
+function Baler.onDelete() end
+function Baler.onEndWorkAreaProcessing() end
+function Baler.onFillUnitFillLevelChanged() end
+function Baler.onLoad() end
+function Baler.onPostLoad() end
+function Baler.onReadStream() end
+function Baler.onReadUpdateStream() end
+function Baler.onRegisterActionEvents() end
+function Baler.onStartWorkAreaProcessing() end
+function Baler.onTurnedOff() end
+function Baler.onTurnedOn() end
+function Baler.onUpdate() end
+function Baler.onUpdateTick() end
+function Baler.onWriteStream() end
+function Baler.onWriteUpdateStream() end
+function Baler.prerequisitesPresent() end
+function Baler.processBalerArea() end
+function Baler.registerEventListeners() end
+function Baler.registerFunctions() end
+function Baler.registerOverwrittenFunctions() end
+function Baler.saveToXMLFile() end
+function Baler.setBaleTime() end
+function Baler.setIsUnloadingBale() end

@@ -1,0 +1,70 @@
+---@class GameSettings
+GameSettings = {
+    SETTING = {
+        CAMERA_SENSITIVITY = 'cameraSensitivity',
+        DEFAULT_SERVER_PORT = 'defaultServerPort',
+        EASY_ARM_CONTROL = 'easyArmControl',
+        FOV_Y = 'fovY',
+        GAMEPAD_ENABLED_SET_BY_USER = 'gamepadEnabledSetByUser',
+        HEAD_TRACKING_ENABLED_SET_BY_USER = 'headTrackingEnabledSetByUser',
+        HORSE_ABANDON_TIMER_DURATION = 'horseAbandonTimerDuration',
+        INGAME_MAP_FILTER = 'ingameMapFilter',
+        INGAME_MAP_STATE = 'ingameMapState',
+        INPUT_HELP_MODE = 'inputHelpMode',
+        INVERT_Y_LOOK = 'invertYLook',
+        IS_GAMEPAD_ENABLED = 'isGamepadEnabled',
+        IS_HEAD_TRACKING_ENABLED = 'isHeadTrackingEnabled',
+        IS_SOUND_PLAYER_STREAM_ACCESS_ALLOWED = 'isSoundPlayerStreamAccessAllowed',
+        IS_TRAIN_TABBABLE = 'isTrainTabbable',
+        JOYSTICK_VIBRATION_ENABLED = 'joystickVibrationEnabled',
+        LIGHTS_PROFILE = 'lightsProfile',
+        MAX_NUM_MIRRORS = 'maxNumMirrors',
+        MONEY_UNIT = 'moneyUnit',
+        MOTOR_STOP_TIMER_DURATION = 'motorStopTimerDuration',
+        MP_LANGUAGE = 'mpLanguage',
+        NICKNAME = 'nickname',
+        PLAYER_ACCESSORY_INDEX = 'playerAccessoryIndex',
+        PLAYER_BODY_INDEX = 'playerBodyIndex',
+        PLAYER_COLOR_INDEX = 'playerColorIndex',
+        PLAYER_HAIR_INDEX = 'playerHairIndex',
+        PLAYER_HAT_INDEX = 'playerHatIndex',
+        PLAYER_JACKET_INDEX = 'playerJacketIndex',
+        PLAYER_MODEL_INDEX = 'playerModelIndex',
+        RADIO_IS_ACTIVE = 'radioIsActive',
+        RADIO_VEHICLE_ONLY = 'radioVehicleOnly',
+        REAL_BEACON_LIGHTS = 'realBeaconLights',
+        RESET_CAMERA = 'resetCamera',
+        SHOW_FIELD_INFO = 'showFieldInfo',
+        SHOW_HELP_ICONS = 'showHelpIcons',
+        SHOW_HELP_MENU = 'showHelpMenu',
+        SHOW_TRIGGER_MARKER = 'showTriggerMarker',
+        STEERING_BACK_SPEED = 'steeringBackSpeed',
+        UI_SCALE = 'uiScale',
+        USE_ACRE = 'useAcre',
+        USE_COLORBLIND_MODE = 'useColorblindMode',
+        USE_FAHRENHEIT = 'useFahrenheit',
+        USE_MILES = 'useMiles',
+        USE_WORLD_CAMERA = 'useWorldCamera',
+        VEHICLE_ARM_SENSITIVITY = 'vehicleArmSensitivity',
+        VOLUME_ENVIRONMENT = 'environmentVolume',
+        VOLUME_GUI = 'volumeGUI',
+        VOLUME_MASTER = 'masterVolume',
+        VOLUME_MUSIC = 'musicVolume',
+        VOLUME_RADIO = 'radioVolume',
+        VOLUME_VEHICLE = 'vehicleVolume',
+    },
+}
+
+function GameSettings.class() end
+function GameSettings.copy() end
+function GameSettings.getTableValue() end
+function GameSettings.getValue() end
+function GameSettings.isa() end
+function GameSettings.loadFromXML() end
+function GameSettings.new() end
+function GameSettings.saveToXMLFile() end
+function GameSettings.setTableValue() end
+function GameSettings.setTableValueFromXML() end
+function GameSettings.setValue() end
+function GameSettings.setXMLValue() end
+function GameSettings.superClass() end

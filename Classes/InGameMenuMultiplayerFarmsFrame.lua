@@ -1,0 +1,82 @@
+---@class InGameMenuMultiplayerFarmsFrame
+InGameMenuMultiplayerFarmsFrame = {
+    CONTROLS = {
+        BUTTON_LEFT = 'buttonLeft',
+        BUTTON_RIGHT = 'buttonRight',
+        FARM_ITEM_TEMPLATE = 'listTemplate',
+        FARM_LIST = 'farmList',
+        NEW_FARM_ITEM = 'newFarmItem',
+        NO_FARMS_BOX = 'noFarmsBox',
+    },
+    ELEMENT_NAME = {
+        FARM_BALANCE = 'farmBalance',
+        FARM_ICON = 'farmIcon',
+        FARM_NAME = 'farmName',
+        PLAYER_COUNT = 'farmPlayerCount',
+        PLAYER_NAME_LAYOUT = 'playerNameLayout',
+        PLAYER_NAME_TEMPLATE = 'playerNameTemplate',
+    },
+    L10N_SYMBOL = {
+        BUTTON_CREATE_FARM = 'button_mp_createFarm',
+        BUTTON_DELETE_FARM = 'button_mp_deleteFarm',
+        BUTTON_EDIT_FARM = 'button_mp_editFarm',
+        BUTTON_JOIN_FARM = 'button_mp_joinFarm',
+        BUTTON_LEAVE_FARM = 'button_mp_leaveFarm',
+        DELETE_FARM_CONFIRM = 'ui_farmDeleteConfirmation',
+        LEAVE_FARM_CONFIRM = 'ui_farmLeaveConfirmation',
+        PLAYER_COUNT = 'ui_players',
+        WRONG_PASSWORD = 'ui_wrongPassword',
+    },
+    PROFILE = {
+        FARM_ITEM = 'ingameMenuMPFarmsListItem',
+        FARM_ITEM_SELECTED = 'ingameMenuMPFarmsListItemSelected',
+    },
+}
+
+function InGameMenuMultiplayerFarmsFrame.buildFarmListItems() end
+function InGameMenuMultiplayerFarmsFrame.class() end
+function InGameMenuMultiplayerFarmsFrame.copy() end
+function InGameMenuMultiplayerFarmsFrame.copyAttributes() end
+function InGameMenuMultiplayerFarmsFrame.createFarm() end
+function InGameMenuMultiplayerFarmsFrame.delete() end
+function InGameMenuMultiplayerFarmsFrame.deleteFarm() end
+function InGameMenuMultiplayerFarmsFrame.doJoinFarm() end
+function InGameMenuMultiplayerFarmsFrame.doLeaveFarm() end
+function InGameMenuMultiplayerFarmsFrame.editFarm() end
+function InGameMenuMultiplayerFarmsFrame.getListFarmIndex() end
+function InGameMenuMultiplayerFarmsFrame.getMainElementPosition() end
+function InGameMenuMultiplayerFarmsFrame.getMainElementSize() end
+function InGameMenuMultiplayerFarmsFrame.initialize() end
+function InGameMenuMultiplayerFarmsFrame.isa() end
+function InGameMenuMultiplayerFarmsFrame.joinFarm() end
+function InGameMenuMultiplayerFarmsFrame.leaveFarm() end
+function InGameMenuMultiplayerFarmsFrame.new() end
+function InGameMenuMultiplayerFarmsFrame.onClickFarm() end
+function InGameMenuMultiplayerFarmsFrame.onClickLeft() end
+function InGameMenuMultiplayerFarmsFrame.onClickRight() end
+function InGameMenuMultiplayerFarmsFrame.onDeleteFarmYesNo() end
+function InGameMenuMultiplayerFarmsFrame.onDoubleClickFarm() end
+function InGameMenuMultiplayerFarmsFrame.onFarmCreated() end
+function InGameMenuMultiplayerFarmsFrame.onFarmMoneyChanged() end
+function InGameMenuMultiplayerFarmsFrame.onFarmPasswordEntered() end
+function InGameMenuMultiplayerFarmsFrame.onFarmsChanged() end
+function InGameMenuMultiplayerFarmsFrame.onFrameClose() end
+function InGameMenuMultiplayerFarmsFrame.onFrameOpen() end
+function InGameMenuMultiplayerFarmsFrame.onMasterUserAdded() end
+function InGameMenuMultiplayerFarmsFrame.onPermissionChanged() end
+function InGameMenuMultiplayerFarmsFrame.onPlayerFarmChanged() end
+function InGameMenuMultiplayerFarmsFrame.onPlayerSetFarmAnswer() end
+function InGameMenuMultiplayerFarmsFrame.onScroll() end
+function InGameMenuMultiplayerFarmsFrame.onSelectionChanged() end
+function InGameMenuMultiplayerFarmsFrame.reset() end
+function InGameMenuMultiplayerFarmsFrame.setCurrentUserId() end
+function InGameMenuMultiplayerFarmsFrame.setFarmBalance() end
+function InGameMenuMultiplayerFarmsFrame.setPlayer() end
+function InGameMenuMultiplayerFarmsFrame.setPlayerFarm() end
+function InGameMenuMultiplayerFarmsFrame.setUsers() end
+function InGameMenuMultiplayerFarmsFrame.superClass() end
+function InGameMenuMultiplayerFarmsFrame.update() end
+function InGameMenuMultiplayerFarmsFrame.updateFarmList() end
+function InGameMenuMultiplayerFarmsFrame.updateFarmPlayers() end
+function InGameMenuMultiplayerFarmsFrame.updateMenuButtons() end
+function InGameMenuMultiplayerFarmsFrame.updateScrollButtons() end

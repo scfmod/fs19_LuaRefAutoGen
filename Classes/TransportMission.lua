@@ -1,0 +1,47 @@
+---@class TransportMission
+TransportMission = {
+    CONTRACT_DURATION = 115200000,
+    CONTRACT_DURATION_VAR = 57600000,
+    NUM_OBJECTS_PER_DRIVE = 5,
+    REWARD_PER_METER = 0.5,
+    REWARD_PER_OBJECT = 350,
+    TEST_HEIGHT = 50,
+    classId = 76,
+    className = 'TransportMission',
+}
+
+function TransportMission.calculateReward() end
+function TransportMission.canRun() end
+function TransportMission.class() end
+function TransportMission.collisionTestCallback() end
+function TransportMission.copy() end
+function TransportMission.createHotspot() end
+function TransportMission.createHotspots() end
+function TransportMission.createObject() end
+function TransportMission.delete() end
+function TransportMission.destroyHotspots() end
+function TransportMission.dismiss() end
+function TransportMission.finish() end
+function TransportMission.getCompletion() end
+function TransportMission.getData() end
+function TransportMission.getDropoffTrigger() end
+function TransportMission.getNPC() end
+function TransportMission.getPickupTrigger() end
+function TransportMission.getTriggerInfo() end
+function TransportMission.getTriggerTitle() end
+function TransportMission.hasHotspots() end
+function TransportMission.init() end
+function TransportMission.isTriggerEmpty() end
+function TransportMission.isa() end
+function TransportMission.loadFromXMLFile() end
+function TransportMission.loadObjects() end
+function TransportMission.new() end
+function TransportMission.objectEnteredTrigger() end
+function TransportMission.objectLeftTrigger() end
+function TransportMission.readStream() end
+function TransportMission.saveToXMLFile() end
+function TransportMission.start() end
+function TransportMission.superClass() end
+function TransportMission.update() end
+function TransportMission.updateTriggerVisibility() end
+function TransportMission.writeStream() end

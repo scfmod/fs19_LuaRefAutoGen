@@ -1,0 +1,79 @@
+---@class BaleLoader
+BaleLoader = {
+    CHANGE_BUTTON_EMPTY = 23,
+    CHANGE_BUTTON_EMPTY_ABORT = 24,
+    CHANGE_BUTTON_WORK_TRANSPORT = 25,
+    CHANGE_DROP_BALES = 1,
+    CHANGE_EMPTY_CANCEL = 5,
+    CHANGE_EMPTY_CLOSE_GRIPPERS = 16,
+    CHANGE_EMPTY_HIDE_PUSHER1 = 17,
+    CHANGE_EMPTY_HIDE_PUSHER2 = 18,
+    CHANGE_EMPTY_REDO = 3,
+    CHANGE_EMPTY_ROTATE1 = 15,
+    CHANGE_EMPTY_ROTATE2 = 19,
+    CHANGE_EMPTY_ROTATE_PLATFORM = 14,
+    CHANGE_EMPTY_START = 4,
+    CHANGE_EMPTY_STATE_NIL = 21,
+    CHANGE_EMPTY_WAIT_TO_DROP = 20,
+    CHANGE_EMPTY_WAIT_TO_REDO = 22,
+    CHANGE_FRONT_PUSHER = 12,
+    CHANGE_GRAB_BALE = 8,
+    CHANGE_GRAB_DROP_BALE = 10,
+    CHANGE_GRAB_MOVE_DOWN = 11,
+    CHANGE_GRAB_MOVE_UP = 9,
+    CHANGE_MOVE_TO_TRANSPORT = 7,
+    CHANGE_MOVE_TO_WORK = 6,
+    CHANGE_ROTATE_PLATFORM = 13,
+    CHANGE_SINK = 2,
+    EMPTY_CANCEL = 12,
+    EMPTY_CLOSE_GRIPPERS = 5,
+    EMPTY_HIDE_PUSHER1 = 6,
+    EMPTY_HIDE_PUSHER2 = 7,
+    EMPTY_NONE = 1,
+    EMPTY_ROTATE1 = 4,
+    EMPTY_ROTATE2 = 8,
+    EMPTY_ROTATE_PLATFORM = 3,
+    EMPTY_SINK = 11,
+    EMPTY_TO_WORK = 2,
+    EMPTY_WAIT_TO_DROP = 9,
+    EMPTY_WAIT_TO_REDO = 13,
+    EMPTY_WAIT_TO_SINK = 10,
+    GRAB_DROP_BALE = 3,
+    GRAB_MOVE_DOWN = 2,
+    GRAB_MOVE_UP = 1,
+}
+
+function BaleLoader.actionEventAbortEmpty() end
+function BaleLoader.actionEventEmpty() end
+function BaleLoader.actionEventWorkTransport() end
+function BaleLoader.addNodeObjectMapping() end
+function BaleLoader.baleGrabberTriggerCallback() end
+function BaleLoader.doStateChange() end
+function BaleLoader.getAllowDynamicMountFillLevelInfo() end
+function BaleLoader.getAllowsStartUnloading() end
+function BaleLoader.getBaleGrabberDropBaleAnimName() end
+function BaleLoader.getBaleInRange() end
+function BaleLoader.getCanBeSelected() end
+function BaleLoader.getIsBaleGrabbingAllowed() end
+function BaleLoader.mountDynamicBale() end
+function BaleLoader.moveToTransportPosition() end
+function BaleLoader.moveToWorkPosition() end
+function BaleLoader.onDeactivate() end
+function BaleLoader.onDelete() end
+function BaleLoader.onLoad() end
+function BaleLoader.onPostLoad() end
+function BaleLoader.onReadStream() end
+function BaleLoader.onRegisterActionEvents() end
+function BaleLoader.onUpdate() end
+function BaleLoader.onUpdateTick() end
+function BaleLoader.onWriteStream() end
+function BaleLoader.pickupBale() end
+function BaleLoader.prerequisitesPresent() end
+function BaleLoader.registerEventListeners() end
+function BaleLoader.registerFunctions() end
+function BaleLoader.registerOverwrittenFunctions() end
+function BaleLoader.removeNodeObjectMapping() end
+function BaleLoader.rotatePlatform() end
+function BaleLoader.saveToXMLFile() end
+function BaleLoader.unmountDynamicBale() end
+function BaleLoader.updateBalePlacesAnimations() end

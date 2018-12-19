@@ -1,0 +1,53 @@
+---@class SoundManager
+SoundManager = {
+    DEFAULT_SOUND_TEMPLATES = 'data/sounds/soundTemplates.xml',
+    MAX_SAMPLES_PER_FRAME = 5,
+}
+
+function SoundManager.addIndoorStateChangedListener() end
+function SoundManager.class() end
+function SoundManager.cloneSample() end
+function SoundManager.cloneSample2D() end
+function SoundManager.copy() end
+function SoundManager.createAudio2d() end
+function SoundManager.createAudioSource() end
+function SoundManager.deleteSample() end
+function SoundManager.deleteSamples() end
+function SoundManager.getCurrentFadeFactor() end
+function SoundManager.getCurrentRandomizationValue() end
+function SoundManager.getCurrentSampleLowpassGain() end
+function SoundManager.getCurrentSamplePitch() end
+function SoundManager.getCurrentSampleVolume() end
+function SoundManager.getIsIndoor() end
+function SoundManager.getIsInsideBuilding() end
+function SoundManager.getIsSamplePlaying() end
+function SoundManager.getModifierFactor() end
+function SoundManager.getSampleModifierValue() end
+function SoundManager.initDataStructures() end
+function SoundManager.isa() end
+function SoundManager.loadModifiersFromXML() end
+function SoundManager.loadRandomizationsFromXML() end
+function SoundManager.loadSample2DFromXML() end
+function SoundManager.loadSampleAttributesFromTemplate() end
+function SoundManager.loadSampleAttributesFromXML() end
+function SoundManager.loadSampleFromXML() end
+function SoundManager.loadSoundTemplates() end
+function SoundManager.new() end
+function SoundManager.playSample() end
+function SoundManager.playSamples() end
+function SoundManager.registerModifierType() end
+function SoundManager.removeIndoorStateChangedListener() end
+function SoundManager.setCurrentSampleAttributes() end
+function SoundManager.setIsIndoor() end
+function SoundManager.setIsInsideBuilding() end
+function SoundManager.setSamplePitch() end
+function SoundManager.setSampleVolume() end
+function SoundManager.stopSample() end
+function SoundManager.stopSamples() end
+function SoundManager.superClass() end
+function SoundManager.update() end
+function SoundManager.updateSampleAttributes() end
+function SoundManager.updateSampleFade() end
+function SoundManager.updateSampleModifiers() end
+function SoundManager.updateSampleRandomizations() end
+function SoundManager.validateSampleDefinition() end

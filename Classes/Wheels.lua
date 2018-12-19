@@ -1,0 +1,103 @@
+---@class Wheels
+Wheels = {
+    GROUND_PARTICLES = {
+        [1] = true,
+        [5] = true,
+        [6] = true,
+        [4] = false,
+        [2] = false,
+        [3] = true,
+        [7] = true,
+    },
+    MAX_SINK = {
+        [1] = 0.2,
+        [4] = 0.15,
+        [3] = 0.08,
+        [2] = 0.25,
+        [5] = 0.1,
+    },
+    WHEEL_GROUND_CONTACT = 2,
+    WHEEL_GROUND_HEIGHT_CONTACT = 3,
+    WHEEL_NO_CONTACT = 0,
+    WHEEL_OBJ_CONTACT = 1,
+    perlinNoiseSink = {
+        numOctaves = 2,
+        persistence = 0,
+        randomFrequency = 0.2,
+        randomSeed = 123,
+    },
+    perlinNoiseWobble = {
+        numOctaves = 4,
+        persistence = 0,
+        randomFrequency = 0.8,
+        randomSeed = 321,
+    },
+}
+
+function Wheels.addToPhysics() end
+function Wheels.brake() end
+function Wheels.deleteVisualWheel() end
+function Wheels.destroyFruitArea() end
+function Wheels.finalizeConnector() end
+function Wheels.finalizeWheel() end
+function Wheels.getAIVehicleDirectionNode() end
+function Wheels.getAllowTireTracks() end
+function Wheels.getAreSurfaceSoundsActive() end
+function Wheels.getBrakeForce() end
+function Wheels.getBrands() end
+function Wheels.getCurrentSurfaceSound() end
+function Wheels.getDriveGroundParticleSystemsScale() end
+function Wheels.getIsVersatileYRotActive() end
+function Wheels.getIsWheelFoliageDestructionAllowed() end
+function Wheels.getTireTrackColor() end
+function Wheels.getTotalMass() end
+function Wheels.getWheelFromWheelIndex() end
+function Wheels.getWheels() end
+function Wheels.getWheelsByBrand() end
+function Wheels.initSpecialization() end
+function Wheels.loadBrandName() end
+function Wheels.loadConnectorFromXML() end
+function Wheels.loadDynamicWheelDataFromXML() end
+function Wheels.loadHubFromXML() end
+function Wheels.loadHubs() end
+function Wheels.loadNonPhysicalWheelFromXML() end
+function Wheels.loadWheelData() end
+function Wheels.loadWheelDataFromExternalXML() end
+function Wheels.loadWheelParticleSystem() end
+function Wheels.loadWheelPhysicsData() end
+function Wheels.loadWheelsSteeringDataFromXML() end
+function Wheels.loadedBrandNames() end
+function Wheels.onDelete() end
+function Wheels.onLeaveVehicle() end
+function Wheels.onLoad() end
+function Wheels.onLoadFinished() end
+function Wheels.onPostDetach() end
+function Wheels.onPostUpdate() end
+function Wheels.onPreAttach() end
+function Wheels.onReadStream() end
+function Wheels.onReadUpdateStream() end
+function Wheels.onUpdate() end
+function Wheels.onUpdateEnd() end
+function Wheels.onUpdateTick() end
+function Wheels.onWriteStream() end
+function Wheels.onWriteUpdateStream() end
+function Wheels.prerequisitesPresent() end
+function Wheels.registerEventListeners() end
+function Wheels.registerEvents() end
+function Wheels.registerFunctions() end
+function Wheels.registerOverwrittenFunctions() end
+function Wheels.removeFromPhysics() end
+function Wheels.setWheelPositionDirty() end
+function Wheels.setWheelTireFrictionDirty() end
+function Wheels.updateWheelBase() end
+function Wheels.updateWheelChockPosition() end
+function Wheels.updateWheelChocksPosition() end
+function Wheels.updateWheelContact() end
+function Wheels.updateWheelDensityMapHeight() end
+function Wheels.updateWheelDestruction() end
+function Wheels.updateWheelDirtAmount() end
+function Wheels.updateWheelFriction() end
+function Wheels.updateWheelSink() end
+function Wheels.updateWheelTireFriction() end
+function Wheels.updateWheelTireTracks() end
+function Wheels.validateWashableNode() end

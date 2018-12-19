@@ -1,0 +1,60 @@
+---@class SettingsConsoleFrame
+SettingsConsoleFrame = {
+    CONTROLS = {
+        ELEMENT_DISPLAY_RESOLUTION = 'resolutionElement',
+        ELEMENT_FOVY = 'fovyElement',
+        ELEMENT_INVERT_Y = 'invertYLookElement',
+        ELEMENT_RENDER_QUALITY = 'renderQualityElement',
+        ELEMENT_UI_SCALE = 'uiScaleElement',
+        MAIN_BOX = 'boxLayout',
+        MAIN_CONTAINER = 'settingsContainer',
+        VOLUME_ENVIRONMENT = 'volumeEnvironmentElement',
+        VOLUME_GUI = 'volumeGUIElement',
+        VOLUME_MASTER = 'masterVolumeElement',
+        VOLUME_MUSIC = 'musicVolumeElement',
+        VOLUME_RADIO = 'volumeRadioElement',
+        VOLUME_VEHICLE = 'volumeVehicleElement',
+    },
+    L10N_SYMBOL = {
+        BUTTON_APPLY = 'button_apply',
+        DOWNSAMPLED = 'setting_resolutionDownsampled',
+        SAVING_FINISHED = 'ui_savingFinished',
+    },
+}
+
+function SettingsConsoleFrame.class() end
+function SettingsConsoleFrame.copy() end
+function SettingsConsoleFrame.copyAttributes() end
+function SettingsConsoleFrame.getMainElementPosition() end
+function SettingsConsoleFrame.getMainElementSize() end
+function SettingsConsoleFrame.getMenuButtonInfo() end
+function SettingsConsoleFrame.initialize() end
+function SettingsConsoleFrame.isa() end
+function SettingsConsoleFrame.new() end
+function SettingsConsoleFrame.onApplySettings() end
+function SettingsConsoleFrame.onClickDisplayResolution() end
+function SettingsConsoleFrame.onClickFovy() end
+function SettingsConsoleFrame.onClickInvertYLook() end
+function SettingsConsoleFrame.onClickMasterVolume() end
+function SettingsConsoleFrame.onClickMusicVolume() end
+function SettingsConsoleFrame.onClickRenderQuality() end
+function SettingsConsoleFrame.onClickUIScale() end
+function SettingsConsoleFrame.onClickVSync() end
+function SettingsConsoleFrame.onClickVolumeEnvironment() end
+function SettingsConsoleFrame.onClickVolumeGUI() end
+function SettingsConsoleFrame.onClickVolumeRadio() end
+function SettingsConsoleFrame.onClickVolumeVehicle() end
+function SettingsConsoleFrame.onCreateDisplayResolution() end
+function SettingsConsoleFrame.onCreateFovy() end
+function SettingsConsoleFrame.onCreateMasterVolume() end
+function SettingsConsoleFrame.onCreateMusicVolume() end
+function SettingsConsoleFrame.onCreateRenderQuality() end
+function SettingsConsoleFrame.onCreateUIScale() end
+function SettingsConsoleFrame.onCreateVolumeEnvironment() end
+function SettingsConsoleFrame.onCreateVolumeGUI() end
+function SettingsConsoleFrame.onCreateVolumeRadio() end
+function SettingsConsoleFrame.onCreateVolumeVehicle() end
+function SettingsConsoleFrame.onFrameOpen() end
+function SettingsConsoleFrame.onUserProfileChanged() end
+function SettingsConsoleFrame.superClass() end
+function SettingsConsoleFrame.updateValues() end

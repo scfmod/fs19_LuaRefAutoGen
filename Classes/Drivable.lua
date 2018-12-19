@@ -1,0 +1,49 @@
+---@class Drivable
+Drivable = {
+    CRUISECONTROL_FULL_TOGGLE_TIME = 500,
+    CRUISECONTROL_STATE_ACTIVE = 1,
+    CRUISECONTROL_STATE_FULL = 2,
+    CRUISECONTROL_STATE_OFF = 0,
+}
+
+function Drivable.actionEventAccelerate() end
+function Drivable.actionEventBrake() end
+function Drivable.actionEventCruiseControlState() end
+function Drivable.actionEventCruiseControlValue() end
+function Drivable.actionEventSteer() end
+function Drivable.getAcDecelerationAxis() end
+function Drivable.getAccelerationAxis() end
+function Drivable.getAxisForward() end
+function Drivable.getCruiseControlAxis() end
+function Drivable.getCruiseControlMaxSpeed() end
+function Drivable.getCruiseControlSpeed() end
+function Drivable.getCruiseControlState() end
+function Drivable.getDashboardSteeringAxis() end
+function Drivable.getDecelerationAxis() end
+function Drivable.getDrivingDirection() end
+function Drivable.getIsDrivingBackward() end
+function Drivable.getIsDrivingForward() end
+function Drivable.getIsVehicleControlledByPlayer() end
+function Drivable.getReverserDirection() end
+function Drivable.getSteeringDirection() end
+function Drivable.onCameraChanged() end
+function Drivable.onDelete() end
+function Drivable.onLeaveVehicle() end
+function Drivable.onLoad() end
+function Drivable.onReadStream() end
+function Drivable.onReadUpdateStream() end
+function Drivable.onRegisterActionEvents() end
+function Drivable.onSetBroken() end
+function Drivable.onUpdate() end
+function Drivable.onWriteStream() end
+function Drivable.onWriteUpdateStream() end
+function Drivable.prerequisitesPresent() end
+function Drivable.registerEventListeners() end
+function Drivable.registerFunctions() end
+function Drivable.saveToXMLFile() end
+function Drivable.setCruiseControlMaxSpeed() end
+function Drivable.setCruiseControlState() end
+function Drivable.setReverserDirection() end
+function Drivable.stopMotor() end
+function Drivable.updateSteeringWheel() end
+function Drivable.updateVehiclePhysics() end

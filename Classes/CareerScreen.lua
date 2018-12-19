@@ -1,0 +1,76 @@
+---@class CareerScreen
+CareerScreen = {
+    CONTROLS = {
+        BUTTON_DELETE_PC = 'buttonDeletePC',
+        BUTTON_START_PC = 'buttonStartPC',
+        LIST_ITEM_TEMPLATE = 'listItemTemplate',
+        LIST_SLIDER = 'listSlider',
+        SAVEGAME_LIST = 'savegameList',
+    },
+    LIST_TEMPLATE_ELEMENT_NAME = {
+        CHARACTER = 'character',
+        CREATE_DATE = 'createDate',
+        DATA_BOX = 'dataBox',
+        DIFFICULTY = 'difficulty',
+        GAME_ICON = 'gameIcon',
+        GAME_NAME = 'gameName',
+        INFO_TEXT = 'infoText',
+        MAP_NAME = 'mapName',
+        MONEY = 'money',
+        PLAYER_NAME = 'playerName',
+        TEXT_BOX = 'textBox',
+        TIME_PLAYED = 'timePlayed',
+        TITLE = 'title',
+    },
+    MISSING_MAP_ICON_PATH = 'dataS2/menu/hud/missingMap.png',
+}
+
+function CareerScreen.calculateTotalPlaytime() end
+function CareerScreen.class() end
+function CareerScreen.copy() end
+function CareerScreen.deleteCurrentSavegame() end
+function CareerScreen.deleteSavegameListElements() end
+function CareerScreen.inputEvent() end
+function CareerScreen.isa() end
+function CareerScreen.new() end
+function CareerScreen.onClickCancel() end
+function CareerScreen.onClickOk() end
+function CareerScreen.onClose() end
+function CareerScreen.onCreateDate() end
+function CareerScreen.onCreateDifficulty() end
+function CareerScreen.onCreateGameIcon() end
+function CareerScreen.onCreateListItemData() end
+function CareerScreen.onCreateListItemInfoText() end
+function CareerScreen.onCreateListItemText() end
+function CareerScreen.onCreateMapName() end
+function CareerScreen.onCreateMoney() end
+function CareerScreen.onCreateName() end
+function CareerScreen.onCreatePlayerCharacter() end
+function CareerScreen.onCreatePlayerName() end
+function CareerScreen.onCreateTimePlayed() end
+function CareerScreen.onCreateTitle() end
+function CareerScreen.onDoubleClick() end
+function CareerScreen.onListSelectionChanged() end
+function CareerScreen.onOkSavegameScanFailed() end
+function CareerScreen.onOkZipModsOptional() end
+function CareerScreen.onOpen() end
+function CareerScreen.onSaveComplete() end
+function CareerScreen.onSaveGameUpdateComplete() end
+function CareerScreen.onSavegameDeleted() end
+function CareerScreen.onYesNoDeleteSavegame() end
+function CareerScreen.onYesNoInstallMissingModsOptional() end
+function CareerScreen.onYesNoNotEnoughSpaceForNewSaveGame() end
+function CareerScreen.onYesNoSavegameCorrupted() end
+function CareerScreen.onYesNoSavegameInvalidUser() end
+function CareerScreen.onYesNoSavegameSelectDevice() end
+function CareerScreen.recreateSavegameList() end
+function CareerScreen.setIsMultiplayer() end
+function CareerScreen.setIsWaitingForSaveGameInfo() end
+function CareerScreen.startCurrentSavegame() end
+function CareerScreen.startGame() end
+function CareerScreen.startSavegame() end
+function CareerScreen.superClass() end
+function CareerScreen.update() end
+function CareerScreen.updateButtons() end
+function CareerScreen.updateSavegameListElements() end
+function CareerScreen.updateSavegameText() end

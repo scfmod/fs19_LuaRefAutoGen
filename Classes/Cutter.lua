@@ -1,0 +1,44 @@
+---@class Cutter
+Cutter = {} -- empty
+
+function Cutter.doCheckSpeedLimit() end
+function Cutter.getAllowCutterAIFruitRequirements() end
+function Cutter.getCombine() end
+function Cutter.getCutterLoad() end
+function Cutter.getDefaultSpeedLimit() end
+function Cutter.getDirtMultiplier() end
+function Cutter.getIsRandomlyMovingPartActive() end
+function Cutter.getIsSpeedRotatingPartActive() end
+function Cutter.getIsTestAreaActive() end
+function Cutter.getIsWorkAreaActive() end
+function Cutter.getWearMultiplier() end
+function Cutter.initSpecialization() end
+function Cutter.loadRandomlyMovingPartFromXML() end
+function Cutter.loadSpeedRotatingPartFromXML() end
+function Cutter.loadTestAreaFromXML() end
+function Cutter.loadWorkAreaFromXML() end
+function Cutter.onAIImplementStart() end
+function Cutter.onDelete() end
+function Cutter.onEndWorkAreaProcessing() end
+function Cutter.onLoad() end
+function Cutter.onPostDetach() end
+function Cutter.onPostLoad() end
+function Cutter.onPreAttach() end
+function Cutter.onReadStream() end
+function Cutter.onReadUpdateStream() end
+function Cutter.onStartWorkAreaProcessing() end
+function Cutter.onTurnedOff() end
+function Cutter.onTurnedOn() end
+function Cutter.onUpdateTick() end
+function Cutter.onWriteStream() end
+function Cutter.onWriteUpdateStream() end
+function Cutter.prerequisitesPresent() end
+function Cutter.processCutterArea() end
+function Cutter.processPickupCutterArea() end
+function Cutter.readTestAreasStream() end
+function Cutter.registerEventListeners() end
+function Cutter.registerFunctions() end
+function Cutter.registerOverwrittenFunctions() end
+function Cutter.updateDebugValues() end
+function Cutter.updateExtraObjects() end
+function Cutter.writeTestAreasStream() end

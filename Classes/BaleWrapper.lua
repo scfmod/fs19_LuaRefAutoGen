@@ -1,0 +1,49 @@
+---@class BaleWrapper
+BaleWrapper = {
+    CHANGE_BUTTON_EMPTY = 8,
+    CHANGE_DROP_BALE_AT_GRABBER = 2,
+    CHANGE_GRAB_BALE = 1,
+    CHANGE_WRAPPER_BALE_DROPPED = 6,
+    CHANGE_WRAPPER_PLATFORM_RESET = 7,
+    CHANGE_WRAPPER_START_DROP_BALE = 5,
+    CHANGE_WRAPPING_BALE_FINSIHED = 4,
+    CHANGE_WRAPPING_START = 3,
+    STATE_MOVING_BALE_TO_WRAPPER = 1,
+    STATE_MOVING_GRABBER_TO_WORK = 2,
+    STATE_NONE = 0,
+    STATE_NUM_BITS = 3,
+    STATE_WRAPPER_DROPPING_BALE = 5,
+    STATE_WRAPPER_FINSIHED = 4,
+    STATE_WRAPPER_RESETTING_PLATFORM = 6,
+    STATE_WRAPPER_WRAPPING_BALE = 3,
+}
+
+function BaleWrapper.actionEventEmpty() end
+function BaleWrapper.allowsGrabbingBale() end
+function BaleWrapper.doStateChange() end
+function BaleWrapper.getBaleInRange() end
+function BaleWrapper.getCanBeSelected() end
+function BaleWrapper.getIsBaleFillTypeSkiped() end
+function BaleWrapper.getIsFoldAllowed() end
+function BaleWrapper.getWrapperBaleType() end
+function BaleWrapper.initSpecialization() end
+function BaleWrapper.loadWrapperFromXML() end
+function BaleWrapper.onDeactivate() end
+function BaleWrapper.onDelete() end
+function BaleWrapper.onDraw() end
+function BaleWrapper.onLoad() end
+function BaleWrapper.onPostLoad() end
+function BaleWrapper.onReadStream() end
+function BaleWrapper.onRegisterActionEvents() end
+function BaleWrapper.onUpdate() end
+function BaleWrapper.onUpdateTick() end
+function BaleWrapper.onWriteStream() end
+function BaleWrapper.pickupWrapperBale() end
+function BaleWrapper.playMoveToWrapper() end
+function BaleWrapper.prerequisitesPresent() end
+function BaleWrapper.registerEventListeners() end
+function BaleWrapper.registerFunctions() end
+function BaleWrapper.registerOverwrittenFunctions() end
+function BaleWrapper.saveToXMLFile() end
+function BaleWrapper.updateWrapNodes() end
+function BaleWrapper.updateWrappingState() end

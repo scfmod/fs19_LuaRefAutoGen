@@ -1,0 +1,50 @@
+---@class IngameMapElement
+IngameMapElement = {
+    BORDER_SCROLL_THRESHOLD = 0.03,
+    CURSOR_SPEED_FACTOR = 0.0006,
+    DRAG_START_DISTANCE = 2,
+    MAP_ZOOM_SHOW_NAMES = 0.8,
+    ZOOM_SPEED_FACTOR = 0.05,
+}
+
+function IngameMapElement.addCursorDeadzone() end
+function IngameMapElement.checkAndResetMouse() end
+function IngameMapElement.class() end
+function IngameMapElement.clearCursorDeadzones() end
+function IngameMapElement.copy() end
+function IngameMapElement.copyAttributes() end
+function IngameMapElement.delete() end
+function IngameMapElement.draw() end
+function IngameMapElement.getElementSize() end
+function IngameMapElement.getLocaPointerTarget() end
+function IngameMapElement.getLocalPosition() end
+function IngameMapElement.isCursorInDeadzones() end
+function IngameMapElement.isPointVisible() end
+function IngameMapElement.isa() end
+function IngameMapElement.loadFromXML() end
+function IngameMapElement.loadProfile() end
+function IngameMapElement.localToWorldPos() end
+function IngameMapElement.mouseEvent() end
+function IngameMapElement.moveCenter() end
+function IngameMapElement.new() end
+function IngameMapElement.onAccept() end
+function IngameMapElement.onClickMap() end
+function IngameMapElement.onClose() end
+function IngameMapElement.onGuiSetupFinished() end
+function IngameMapElement.onHorizontalCursorInput() end
+function IngameMapElement.onOpen() end
+function IngameMapElement.onVerticalCursorInput() end
+function IngameMapElement.onZoomInput() end
+function IngameMapElement.registerActionEvents() end
+function IngameMapElement.removeActionEvents() end
+function IngameMapElement.reset() end
+function IngameMapElement.resetFrameInputState() end
+function IngameMapElement.selectHotspotAt() end
+function IngameMapElement.setIngameMap() end
+function IngameMapElement.setMapFocusToHotspot() end
+function IngameMapElement.setTerrainSize() end
+function IngameMapElement.superClass() end
+function IngameMapElement.update() end
+function IngameMapElement.updateCursor() end
+function IngameMapElement.updateMap() end
+function IngameMapElement.zoom() end

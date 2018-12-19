@@ -1,0 +1,23 @@
+---@class FillTypeCategory
+FillTypeCategory = {
+    [1] = 'BULK',
+    [14] = 'MANURESPREADER',
+    [13] = 'SLURRYTANK',
+    [12] = 'FORAGEHARVESTER',
+    [11] = 'TRAINWAGON',
+    [15] = 'FORK',
+    [17] = 'HORSE',
+    [16] = 'ANIMAL',
+    [18] = 'FARMSILO',
+    [19] = 'HAYLOFT',
+    [10] = 'SILAGETRAILER',
+    [8] = 'AUGERWAGON',
+    [3] = 'PIECE',
+    [2] = 'LIQUID',
+    [9] = 'FORAGEWAGON',
+    [4] = 'WINDROW',
+    [6] = 'SPRAYER',
+    [5] = 'COMBINE',
+    [7] = 'SPREADER',
+    [20] = 'LOADINGVEHICLE',
+}

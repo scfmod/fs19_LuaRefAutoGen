@@ -1,0 +1,48 @@
+---@class NetworkNode
+NetworkNode = {
+    CHANNEL_CHAT = 4,
+    CHANNEL_GROUND = 3,
+    CHANNEL_MAIN = 1,
+    CHANNEL_SECONDARY = 2,
+    LOCAL_STREAM_ID = 0,
+    NUM_PACKETS = 7,
+    OBJECT_SEND_NUM_BITS = 24,
+    PACKET_DENSITY_MAPS = 5,
+    PACKET_EVENT = 1,
+    PACKET_OTHERS = 7,
+    PACKET_PLAYER = 3,
+    PACKET_SPLITSHAPES = 4,
+    PACKET_TERRAIN_DEFORM = 6,
+    PACKET_VEHICLE = 2,
+}
+
+function NetworkNode.addObject() end
+function NetworkNode.addObjectToUpdateLoop() end
+function NetworkNode.addPacketSize() end
+function NetworkNode.checkObjectUpdateDebugReadSize() end
+function NetworkNode.class() end
+function NetworkNode.consoleCommandToggleNetworkShowActiveObjects() end
+function NetworkNode.consoleCommandToggleShowNetworkTraffic() end
+function NetworkNode.copy() end
+function NetworkNode.delete() end
+function NetworkNode.draw() end
+function NetworkNode.drawConnectionNetworkStats() end
+function NetworkNode.getObject() end
+function NetworkNode.getObjectId() end
+function NetworkNode.getObjectPacketType() end
+function NetworkNode.getPacketTypeName() end
+function NetworkNode.isa() end
+function NetworkNode.keyEvent() end
+function NetworkNode.mouseEvent() end
+function NetworkNode.new() end
+function NetworkNode.packetReceived() end
+function NetworkNode.registerObject() end
+function NetworkNode.removeObject() end
+function NetworkNode.removeObjectFromUpdateLoop() end
+function NetworkNode.setNetworkListener() end
+function NetworkNode.superClass() end
+function NetworkNode.unregisterObject() end
+function NetworkNode.update() end
+function NetworkNode.updateActiveObjects() end
+function NetworkNode.updateActiveObjectsTick() end
+function NetworkNode.updatePacketStats() end

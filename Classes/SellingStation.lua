@@ -1,0 +1,47 @@
+---@class SellingStation
+SellingStation = {
+    PRICE_CLIMBING = 2,
+    PRICE_DROP_DELAY = 3600000,
+    PRICE_FALLING = 1,
+    PRICE_GREAT_DEMAND = 5,
+    PRICE_HIGH = 4,
+    PRICE_LOW = 3,
+    classId = 16,
+    className = 'SellingStation',
+}
+
+function SellingStation.addAcceptedFillType() end
+function SellingStation.addFillLevelFromTool() end
+function SellingStation.addTargetStorage() end
+function SellingStation.class() end
+function SellingStation.copy() end
+function SellingStation.doPriceDrop() end
+function SellingStation.executePriceDrop() end
+function SellingStation.getAppearsOnStats() end
+function SellingStation.getCurrentPricingTrend() end
+function SellingStation.getEffectiveFillTypePrice() end
+function SellingStation.getFreeCapacity() end
+function SellingStation.getIncomeNameForFillType() end
+function SellingStation.getIsFillAllowedFromFarm() end
+function SellingStation.getIsFillTypeAllowed() end
+function SellingStation.getPriceMultiplier() end
+function SellingStation.getSupportsGreatDemand() end
+function SellingStation.getTotalPaid() end
+function SellingStation.getTotalReceived() end
+function SellingStation.initPricingDynamics() end
+function SellingStation.isa() end
+function SellingStation.load() end
+function SellingStation.loadFromXMLFile() end
+function SellingStation.new() end
+function SellingStation.readStream() end
+function SellingStation.readUpdateStream() end
+function SellingStation.saveToXMLFile() end
+function SellingStation.sellFillType() end
+function SellingStation.setIsInGreatDemand() end
+function SellingStation.setPriceMultiplier() end
+function SellingStation.superClass() end
+function SellingStation.update() end
+function SellingStation.updatePrices() end
+function SellingStation.updateTick() end
+function SellingStation.writeStream() end
+function SellingStation.writeUpdateStream() end

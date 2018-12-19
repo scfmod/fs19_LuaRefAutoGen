@@ -1,0 +1,48 @@
+---@class TextInputElement
+TextInputElement = {
+    INITIAL_REPEAT_DELAY = 500,
+    INPUT_CONTEXT_NAME = 'TEXT_INPUT',
+    MIN_REPEAT_DELAY = 100,
+    inputContextActive = false,
+}
+
+function TextInputElement.applyScreenAlignment() end
+function TextInputElement.applyTextInputAspectScale() end
+function TextInputElement.class() end
+function TextInputElement.copy() end
+function TextInputElement.copyAttributes() end
+function TextInputElement.delete() end
+function TextInputElement.deleteText() end
+function TextInputElement.draw() end
+function TextInputElement.drawCursor() end
+function TextInputElement.drawTextPart() end
+function TextInputElement.finalize() end
+function TextInputElement.getAvailableTextWidth() end
+function TextInputElement.getDoRenderText() end
+function TextInputElement.getIsActive() end
+function TextInputElement.getIsUnicodeAllowed() end
+function TextInputElement.getNeededTextWidth() end
+function TextInputElement.inputEvent() end
+function TextInputElement.isa() end
+function TextInputElement.keyEvent() end
+function TextInputElement.limitTextToAvailableWidth() end
+function TextInputElement.loadFromXML() end
+function TextInputElement.loadProfile() end
+function TextInputElement.mouseEvent() end
+function TextInputElement.moveCursorLeft() end
+function TextInputElement.moveCursorRight() end
+function TextInputElement.new() end
+function TextInputElement.onClose() end
+function TextInputElement.onFocusActivate() end
+function TextInputElement.onFocusLeave() end
+function TextInputElement.reset() end
+function TextInputElement.setAlpha() end
+function TextInputElement.setCaptureInput() end
+function TextInputElement.setForcePressed() end
+function TextInputElement.setText() end
+function TextInputElement.shouldFocusChange() end
+function TextInputElement.stopSpecialKeyRepeating() end
+function TextInputElement.superClass() end
+function TextInputElement.translate() end
+function TextInputElement.update() end
+function TextInputElement.updateVisibleTextElements() end

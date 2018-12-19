@@ -1,0 +1,20 @@
+---@class FruitType
+FruitType = {
+    BARLEY = 2,
+    CANOLA = 5,
+    COTTON = 4,
+    DRYGRASS = 14,
+    GRASS = 13,
+    MAIZE = 8,
+    OAT = 3,
+    OILSEEDRADISH = 11,
+    POPLAR = 12,
+    POTATO = 9,
+    SOYBEAN = 7,
+    SUGARBEET = 10,
+    SUGARCANE = 15,
+    SUNFLOWER = 6,
+    UNKNOWN = 0,
+    WEED = 16,
+    WHEAT = 1,
+}

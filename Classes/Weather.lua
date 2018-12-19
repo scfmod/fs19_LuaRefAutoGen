@@ -1,0 +1,54 @@
+---@class Weather
+Weather = {
+    CHANGE_DURATION = 7200000,
+    DEBUG_ENABLED = false,
+    MIN_WEATHER_DURATION = 5,
+    SEND_BITS_DURATION = 6,
+    SEND_BITS_NUM_OBJECTS = 8,
+    SEND_BITS_OBJECT_INDEX = 3,
+    SEND_BITS_OBJECT_VARIATION_INDEX = 4,
+    SEND_BITS_STARTTIME = 11,
+    SEND_BITS_TEMPERATURE = 6,
+    SEND_BITS_WIND_INDEX = 4,
+    TEMPERATURE_STABLE_CHANGE = 2,
+}
+
+function Weather.addStartWeather() end
+function Weather.addWeatherForecast() end
+function Weather.class() end
+function Weather.consoleCommandWeatherAdd() end
+function Weather.consoleCommandWeatherReloadData() end
+function Weather.consoleCommandWeatherSetCloudFront() end
+function Weather.consoleCommandWeatherSetClouds() end
+function Weather.consoleCommandWeatherSetDebugWind() end
+function Weather.consoleCommandWeatherSetFog() end
+function Weather.consoleCommandWeatherSetWindState() end
+function Weather.consoleCommandWeatherToggleDebug() end
+function Weather.copy() end
+function Weather.createRandomWeatherInstance() end
+function Weather.delete() end
+function Weather.fillWeatherForecast() end
+function Weather.getCurrentMinMaxTemperatures() end
+function Weather.getCurrentTemperatureTrend() end
+function Weather.getForcaseInstanceVariation() end
+function Weather.getGlobalCloudCoverate() end
+function Weather.getGroundWetness() end
+function Weather.getIsRaining() end
+function Weather.getRainFallScale() end
+function Weather.getRandomWeatherObjectVariation() end
+function Weather.getTimeSinceLastRain() end
+function Weather.getWeatherObjectByIndex() end
+function Weather.getWeatherTypeAtTime() end
+function Weather.hourChanged() end
+function Weather.init() end
+function Weather.isa() end
+function Weather.load() end
+function Weather.loadFromXMLFile() end
+function Weather.new() end
+function Weather.onTimeScaleChanged() end
+function Weather.saveToXMLFile() end
+function Weather.setIsRainAllowed() end
+function Weather.setWindObjectIndex() end
+function Weather.superClass() end
+function Weather.toggleFog() end
+function Weather.update() end

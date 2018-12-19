@@ -1,0 +1,14 @@
+---@class Store
+Store = {
+    STORE_ABORT = 4,
+    STORE_ACTIVE = 2,
+    STORE_AGE_RESTRICTED = 4,
+    STORE_CLOSED = 1,
+    STORE_COMPLETE = 3,
+    STORE_ERROR = 5,
+    STORE_GOING_ONLINE = 1,
+    STORE_NETFAIL = 3,
+    STORE_NONE = 0,
+    STORE_OFFLINE = 0,
+    STORE_ONLINE = 2,
+}

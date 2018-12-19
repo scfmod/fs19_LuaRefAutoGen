@@ -1,0 +1,95 @@
+---@class InGameMenuGameSettingsFrame
+InGameMenuGameSettingsFrame = {
+    CONTROLS = {
+        BOX_LAYOUT = 'boxLayout',
+        BUTTON_PAUSE = 'buttonPauseGame',
+        CHECKBOX_AUTO_MOTOR_START = 'checkAutoMotorStart',
+        CHECKBOX_DIRT = 'checkDirt',
+        CHECKBOX_FRUIT_DESTRUCTION = 'checkFruitDestruction',
+        CHECKBOX_FUEL_USAGE = 'checkFuelUsage',
+        CHECKBOX_HELPER_REFILL_FERTILIZER = 'checkHelperRefillFertilizer',
+        CHECKBOX_HELPER_REFILL_FUEL = 'checkHelperRefillFuel',
+        CHECKBOX_HELPER_REFILL_MANURE = 'checkHelperRefillManure',
+        CHECKBOX_HELPER_REFILL_SEED = 'checkHelperRefillSeed',
+        CHECKBOX_HELPER_REFILL_SLURRY = 'checkHelperRefillSlurry',
+        CHECKBOX_LIME_REQUIRED = 'checkLimeRequired',
+        CHECKBOX_PLANT_GROWTH_RATE = 'checkPlantGrowthRate',
+        CHECKBOX_PLANT_WITHERING = 'checkPlantWithering',
+        CHECKBOX_PLOWING_REQUIRED = 'checkPlowingRequired',
+        CHECKBOX_STOP_AND_GO_BRAKING = 'checkStopAndGoBraking',
+        CHECKBOX_TRAFFIC = 'checkTraffic',
+        CHECKBOX_WEEDS_ENABLED = 'checkWeedsEnabled',
+        HELP_BOX = 'gameSettingsHelpBox',
+        HELP_BOX_TEXT = 'gameSettingsHelpBoxText',
+        OPTION_AUTO_SAVE_INTERVAL = 'multiAutoSaveInterval',
+        OPTION_ECONOMIC_DIFFICULTY = 'economicDifficulty',
+        OPTION_TIME_SCALE = 'multiTimeScale',
+        SETTINGS_CONTAINER = 'settingsContainer',
+        TEXT_SAVEGAME_NAME = 'textSavegameName',
+    },
+    L10N_SYMBOL = {
+        BUY = 'ui_buy',
+        DIFFICULTY_EASY = 'button_easy',
+        DIFFICULTY_HARD = 'button_hard',
+        DIFFICULTY_NORMAL = 'button_normal',
+        GROWTH_RATE_TEMPLATE = 'setting_plantGrowthRateState',
+        OFF = 'ui_off',
+        PAUSE = 'input_PAUSE',
+        SUBSTITUTION_PREFIX = '$l10n_',
+        UNPAUSE = 'ui_unpause',
+        USAGE_DEFAULT = 'setting_fuelUsageDefault',
+        USAGE_LOW = 'setting_fuelUsageLow',
+    },
+    PROFILE = {
+        BUTTON_PAUSE = 'ingameMenuSettingsPauseButton',
+        BUTTON_UNPAUSE = 'ingameMenuSettingsUnpauseButton',
+    },
+}
+
+function InGameMenuGameSettingsFrame.assignAutoSaveTexts() end
+function InGameMenuGameSettingsFrame.assignDirtTexts() end
+function InGameMenuGameSettingsFrame.assignDynamicTexts() end
+function InGameMenuGameSettingsFrame.assignEconomicDifficultyTexts() end
+function InGameMenuGameSettingsFrame.assignPlantGrowthTexts() end
+function InGameMenuGameSettingsFrame.assignStaticTexts() end
+function InGameMenuGameSettingsFrame.assignTimeScaleTexts() end
+function InGameMenuGameSettingsFrame.class() end
+function InGameMenuGameSettingsFrame.copy() end
+function InGameMenuGameSettingsFrame.copyAttributes() end
+function InGameMenuGameSettingsFrame.getMainElementPosition() end
+function InGameMenuGameSettingsFrame.getMainElementSize() end
+function InGameMenuGameSettingsFrame.initialize() end
+function InGameMenuGameSettingsFrame.isa() end
+function InGameMenuGameSettingsFrame.new() end
+function InGameMenuGameSettingsFrame.onButtonOpenServerSettings() end
+function InGameMenuGameSettingsFrame.onClickAutoSaveInterval() end
+function InGameMenuGameSettingsFrame.onClickAutomaticMotorStart() end
+function InGameMenuGameSettingsFrame.onClickDirt() end
+function InGameMenuGameSettingsFrame.onClickEconomicDifficulty() end
+function InGameMenuGameSettingsFrame.onClickFruitDestruction() end
+function InGameMenuGameSettingsFrame.onClickFuelUsage() end
+function InGameMenuGameSettingsFrame.onClickHelperRefillFertilizer() end
+function InGameMenuGameSettingsFrame.onClickHelperRefillFuel() end
+function InGameMenuGameSettingsFrame.onClickHelperRefillManure() end
+function InGameMenuGameSettingsFrame.onClickHelperRefillSeed() end
+function InGameMenuGameSettingsFrame.onClickHelperRefillSlurry() end
+function InGameMenuGameSettingsFrame.onClickLimeRequired() end
+function InGameMenuGameSettingsFrame.onClickPauseGame() end
+function InGameMenuGameSettingsFrame.onClickPlantGrowthRate() end
+function InGameMenuGameSettingsFrame.onClickPlantWithering() end
+function InGameMenuGameSettingsFrame.onClickPlowingRequired() end
+function InGameMenuGameSettingsFrame.onClickStopAndGoBraking() end
+function InGameMenuGameSettingsFrame.onClickTimeScale() end
+function InGameMenuGameSettingsFrame.onClickTraffic() end
+function InGameMenuGameSettingsFrame.onClickWeedsEnabled() end
+function InGameMenuGameSettingsFrame.onEnterPressedSavegameName() end
+function InGameMenuGameSettingsFrame.onFrameOpen() end
+function InGameMenuGameSettingsFrame.onToolTipBoxTextChanged() end
+function InGameMenuGameSettingsFrame.setHasMasterRights() end
+function InGameMenuGameSettingsFrame.setManureTriggers() end
+function InGameMenuGameSettingsFrame.setMissionInfo() end
+function InGameMenuGameSettingsFrame.superClass() end
+function InGameMenuGameSettingsFrame.updateButtons() end
+function InGameMenuGameSettingsFrame.updateGameSettings() end
+function InGameMenuGameSettingsFrame.updatePauseButtonState() end
+function InGameMenuGameSettingsFrame.updateToolTipBoxVisibility() end

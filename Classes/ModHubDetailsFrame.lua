@@ -1,0 +1,60 @@
+---@class ModHubDetailsFrame
+ModHubDetailsFrame = {
+    CONTROLS = {
+        DETAIL_AUTHOR = 'modAuthor',
+        DETAIL_BOX = 'pageInformation',
+        DETAIL_DESC = 'modDescription',
+        DETAIL_HASH = 'modInfoHash',
+        DETAIL_HASH_SPACE = 'modInfoHashSpace',
+        DETAIL_IMAGE_1 = 'modPreviewImage1',
+        DETAIL_IMAGE_2 = 'modPreviewImage2',
+        DETAIL_SIZE = 'modInfoSize',
+        DETAIL_SPACE = 'modInfoBoxSpace',
+        DETAIL_VERSION = 'modInfoVersion',
+        MOD_INFO_BOX = 'modInfoBox',
+        NAVIGATION_HEADER = 'breadcrumbs',
+        TEXT_SLIDER = 'textSlider',
+    },
+    L10N_SYMBOL = {
+        BUTTON_BUY = 'button_modHubBuy',
+        BUTTON_DOWNLOAD = 'button_modHubDownload',
+        BUTTON_INSTALL = 'button_modHubInstall',
+        BUTTON_UNINSTALL = 'button_modHubUninstall',
+        BUTTON_UPDATE = 'button_modHubUpdate',
+        BUTTON_VOTE = 'button_rate',
+    },
+}
+
+function ModHubDetailsFrame.class() end
+function ModHubDetailsFrame.copy() end
+function ModHubDetailsFrame.copyAttributes() end
+function ModHubDetailsFrame.getMainElementPosition() end
+function ModHubDetailsFrame.getMainElementSize() end
+function ModHubDetailsFrame.getMenuButtonInfo() end
+function ModHubDetailsFrame.initialize() end
+function ModHubDetailsFrame.installCurrentMod() end
+function ModHubDetailsFrame.isa() end
+function ModHubDetailsFrame.new() end
+function ModHubDetailsFrame.onAddedToDownload() end
+function ModHubDetailsFrame.onButtonBuy() end
+function ModHubDetailsFrame.onButtonDownload() end
+function ModHubDetailsFrame.onButtonInstall() end
+function ModHubDetailsFrame.onButtonUninstall() end
+function ModHubDetailsFrame.onButtonUpdate() end
+function ModHubDetailsFrame.onButtonVote() end
+function ModHubDetailsFrame.onDependendModInstallFailed() end
+function ModHubDetailsFrame.onDescriptionSliderChanged() end
+function ModHubDetailsFrame.onFrameOpen() end
+function ModHubDetailsFrame.onModInstallFailed() end
+function ModHubDetailsFrame.onStoreFailedOk() end
+function ModHubDetailsFrame.onUninstallFailed() end
+function ModHubDetailsFrame.onUninstalled() end
+function ModHubDetailsFrame.onVote() end
+function ModHubDetailsFrame.onVoted() end
+function ModHubDetailsFrame.setBreadcrumbs() end
+function ModHubDetailsFrame.setDescriptionPage() end
+function ModHubDetailsFrame.setImage() end
+function ModHubDetailsFrame.setModInfo() end
+function ModHubDetailsFrame.setupDescription() end
+function ModHubDetailsFrame.superClass() end
+function ModHubDetailsFrame.uninstallYesNo() end

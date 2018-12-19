@@ -1,0 +1,39 @@
+---@class HarvestMission
+HarvestMission = {
+    FAILURE_COST_FACTOR = 0.1,
+    FAILURE_COST_OF_TOTAL = 0.95,
+    REWARD_PER_HA_SMALL = 4800,
+    REWARD_PER_HA_WIDE = 1500,
+    classId = 72,
+    className = 'HarvestMission',
+}
+
+function HarvestMission.calculateStealingCost() end
+function HarvestMission.canRunOnField() end
+function HarvestMission.class() end
+function HarvestMission.completeField() end
+function HarvestMission.copy() end
+function HarvestMission.createModifiers() end
+function HarvestMission.delete() end
+function HarvestMission.fillSold() end
+function HarvestMission.finish() end
+function HarvestMission.getCompletion() end
+function HarvestMission.getData() end
+function HarvestMission.getExtraProgressText() end
+function HarvestMission.getFruitInVehicles() end
+function HarvestMission.getHighestSellPointPrice() end
+function HarvestMission.getStationName() end
+function HarvestMission.getVehicleVariant() end
+function HarvestMission.init() end
+function HarvestMission.isa() end
+function HarvestMission.loadFromXMLFile() end
+function HarvestMission.new() end
+function HarvestMission.partitionCompletion() end
+function HarvestMission.readStream() end
+function HarvestMission.saveToXMLFile() end
+function HarvestMission.start() end
+function HarvestMission.superClass() end
+function HarvestMission.update() end
+function HarvestMission.updateRewardPerHa() end
+function HarvestMission.validate() end
+function HarvestMission.writeStream() end

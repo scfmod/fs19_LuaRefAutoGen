@@ -1,0 +1,47 @@
+---@class HusbandryModuleBase
+HusbandryModuleBase = {} -- empty
+
+function HusbandryModuleBase.addFillLevelFromTool() end
+function HusbandryModuleBase.addFillLevelToFillableObject() end
+function HusbandryModuleBase.changeFillLevels() end
+function HusbandryModuleBase.class() end
+function HusbandryModuleBase.copy() end
+function HusbandryModuleBase.createModule() end
+function HusbandryModuleBase.delete() end
+function HusbandryModuleBase.finalizePlacement() end
+function HusbandryModuleBase.getAllFillLevels() end
+function HusbandryModuleBase.getCapacity() end
+function HusbandryModuleBase.getFillLevel() end
+function HusbandryModuleBase.getFillProgress() end
+function HusbandryModuleBase.getFreeCapacity() end
+function HusbandryModuleBase.getHasSpaceForUnloading() end
+function HusbandryModuleBase.getIsFillAllowedToFarm() end
+function HusbandryModuleBase.getIsFillTypeAllowed() end
+function HusbandryModuleBase.getIsInUse() end
+function HusbandryModuleBase.getIsNodeUsed() end
+function HusbandryModuleBase.getIsToolTypeAllowed() end
+function HusbandryModuleBase.getProvidedFillTypes() end
+function HusbandryModuleBase.getTotalFillLevel() end
+function HusbandryModuleBase.hasModule() end
+function HusbandryModuleBase.initDataStructures() end
+function HusbandryModuleBase.isa() end
+function HusbandryModuleBase.load() end
+function HusbandryModuleBase.loadFromXMLFile() end
+function HusbandryModuleBase.new() end
+function HusbandryModuleBase.onDayChanged() end
+function HusbandryModuleBase.onFillProgressChanged() end
+function HusbandryModuleBase.onHourChanged() end
+function HusbandryModuleBase.onIntervalUpdate() end
+function HusbandryModuleBase.onQuarterHourChanged() end
+function HusbandryModuleBase.onSell() end
+function HusbandryModuleBase.readStream() end
+function HusbandryModuleBase.readUpdateStream() end
+function HusbandryModuleBase.registerModule() end
+function HusbandryModuleBase.saveToXMLFile() end
+function HusbandryModuleBase.setCapacity() end
+function HusbandryModuleBase.setFillLevel() end
+function HusbandryModuleBase.setSingleAnimalUsagePerDay() end
+function HusbandryModuleBase.superClass() end
+function HusbandryModuleBase.update() end
+function HusbandryModuleBase.writeStream() end
+function HusbandryModuleBase.writeUpdateStream() end

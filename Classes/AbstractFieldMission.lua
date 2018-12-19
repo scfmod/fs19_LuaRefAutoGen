@@ -1,0 +1,52 @@
+---@class AbstractFieldMission
+AbstractFieldMission = {
+    FIELD_SIZE_LARGE = 5,
+    FIELD_SIZE_MEDIUM = 1.5,
+    REIMBURSEMENT_FACTOR = 0.95,
+    REWARD_PER_HA = 800,
+    VEHICLE_USE_COST = 200,
+    classId = 68,
+    className = 'AbstractFieldMission',
+}
+
+function AbstractFieldMission.addToMissionMap() end
+function AbstractFieldMission.calculateReimbursement() end
+function AbstractFieldMission.calculateReward() end
+function AbstractFieldMission.calculateVehicleUseCost() end
+function AbstractFieldMission.canRunOnField() end
+function AbstractFieldMission.class() end
+function AbstractFieldMission.completeField() end
+function AbstractFieldMission.copy() end
+function AbstractFieldMission.createMapMarkerAtSellingStation() end
+function AbstractFieldMission.delete() end
+function AbstractFieldMission.destroyMapMarker() end
+function AbstractFieldMission.dismiss() end
+function AbstractFieldMission.finish() end
+function AbstractFieldMission.getCompletion() end
+function AbstractFieldMission.getFieldCompletion() end
+function AbstractFieldMission.getFieldSize() end
+function AbstractFieldMission.getMaxCutLiters() end
+function AbstractFieldMission.getNPC() end
+function AbstractFieldMission.getVehicleGroup() end
+function AbstractFieldMission.getVehicleGroupFromIdentifier() end
+function AbstractFieldMission.getVehicleVariant() end
+function AbstractFieldMission.hasField() end
+function AbstractFieldMission.hasLeasableVehicles() end
+function AbstractFieldMission.hasMapMarker() end
+function AbstractFieldMission.init() end
+function AbstractFieldMission.isSpawnSpaceAvailable() end
+function AbstractFieldMission.isa() end
+function AbstractFieldMission.loadFromXMLFile() end
+function AbstractFieldMission.loadNextVehicle() end
+function AbstractFieldMission.loadNextVehicleCallback() end
+function AbstractFieldMission.new() end
+function AbstractFieldMission.onVehicleReset() end
+function AbstractFieldMission.readStream() end
+function AbstractFieldMission.removeAccess() end
+function AbstractFieldMission.resetField() end
+function AbstractFieldMission.saveToXMLFile() end
+function AbstractFieldMission.start() end
+function AbstractFieldMission.started() end
+function AbstractFieldMission.superClass() end
+function AbstractFieldMission.update() end
+function AbstractFieldMission.writeStream() end

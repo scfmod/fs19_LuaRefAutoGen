@@ -1,0 +1,57 @@
+---@class CreateGameScreen
+CreateGameScreen = {
+    CONTROLS = {
+        ALLOW_ONLY_FRIENDS_ELEMENT = 'allowOnlyFriendsElement',
+        AUTO_ACCEPT_ELEMENT = 'autoAcceptElement',
+        AUTO_SAVE_ELEMENT = 'autoSaveElement',
+        BANDWIDTH_ELEMENT = 'bandwidthElement',
+        BUTTON_BOX = 'buttonBox',
+        CAPACITY_ELEMENT = 'capacityElement',
+        CHANGE_BUTTON = 'changeButton',
+        MULTIPLAYER_ELEMENT = 'multiplayerLanguageElement',
+        PASSWORD_ELEMENT = 'passwordElement',
+        PORT_ELEMENT = 'portElement',
+        SERVER_NAME_ELEMENT = 'serverNameElement',
+        SETTINGS_BOX = 'settingsBox',
+        USE_UPNP_ELEMENT = 'useUpnpElement',
+    },
+}
+
+function CreateGameScreen.class() end
+function CreateGameScreen.copy() end
+function CreateGameScreen.fillCapacity() end
+function CreateGameScreen.getDefaultServerName() end
+function CreateGameScreen.getPort() end
+function CreateGameScreen.isa() end
+function CreateGameScreen.new() end
+function CreateGameScreen.onClickActivate() end
+function CreateGameScreen.onClickAllowOnlyFriends() end
+function CreateGameScreen.onClickAutoAccept() end
+function CreateGameScreen.onClickAutoSave() end
+function CreateGameScreen.onClickBack() end
+function CreateGameScreen.onClickBandwidth() end
+function CreateGameScreen.onClickMultiplayerLanguage() end
+function CreateGameScreen.onClickNumPlayer() end
+function CreateGameScreen.onClickOk() end
+function CreateGameScreen.onClickUseUpnp() end
+function CreateGameScreen.onCreate() end
+function CreateGameScreen.onCreateBandwidth() end
+function CreateGameScreen.onCreateMultiplayerLanguage() end
+function CreateGameScreen.onCreateNumPlayer() end
+function CreateGameScreen.onEnter() end
+function CreateGameScreen.onEnterPressed() end
+function CreateGameScreen.onEscPressed() end
+function CreateGameScreen.onFocus() end
+function CreateGameScreen.onIsUnicodeAllowed() end
+function CreateGameScreen.onLeave() end
+function CreateGameScreen.onMasterServerConnectionFailed() end
+function CreateGameScreen.onOpen() end
+function CreateGameScreen.preparePortAndStartGame() end
+function CreateGameScreen.removePortMapping() end
+function CreateGameScreen.setMissionInfo() end
+function CreateGameScreen.showChangeButton() end
+function CreateGameScreen.startGameAfterPortCheck() end
+function CreateGameScreen.superClass() end
+function CreateGameScreen.unusedPacketReceived() end
+function CreateGameScreen.update() end
+function CreateGameScreen.verifyServerName() end

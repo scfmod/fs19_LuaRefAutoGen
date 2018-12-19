@@ -1,0 +1,62 @@
+---@class Lights
+Lights = {
+    TURNLIGHT_HAZARD = 3,
+    TURNLIGHT_LEFT = 1,
+    TURNLIGHT_OFF = 0,
+    TURNLIGHT_RIGHT = 2,
+    turnLightSendNumBits = 3,
+}
+
+function Lights.actionEventToggleBeaconLights() end
+function Lights.actionEventToggleHighBeamLight() end
+function Lights.actionEventToggleLightFront() end
+function Lights.actionEventToggleLights() end
+function Lights.actionEventToggleTurnLightHazard() end
+function Lights.actionEventToggleTurnLightLeft() end
+function Lights.actionEventToggleTurnLightRight() end
+function Lights.actionEventToggleWorkLightBack() end
+function Lights.actionEventToggleWorkLightFront() end
+function Lights.dashboardLightAttributes() end
+function Lights.dashboardLightState() end
+function Lights.deactivateLights() end
+function Lights.getBeaconLightsVisibility() end
+function Lights.getCanToggleLight() end
+function Lights.getDeactivateLightsOnLeave() end
+function Lights.getIsActiveForLights() end
+function Lights.getLightsTypesMask() end
+function Lights.getTurnLightState() end
+function Lights.getUseHighProfile() end
+function Lights.loadRealLightSetup() end
+function Lights.loadRealLights() end
+function Lights.loadSharedLight() end
+function Lights.loadVisualLights() end
+function Lights.onAIActive() end
+function Lights.onAIBlock() end
+function Lights.onAIContinue() end
+function Lights.onAutomatedTrainTravelActive() end
+function Lights.onDelete() end
+function Lights.onEnterVehicle() end
+function Lights.onLeaveVehicle() end
+function Lights.onLoad() end
+function Lights.onPostAttach() end
+function Lights.onPostDetach() end
+function Lights.onReadStream() end
+function Lights.onReadUpdateStream() end
+function Lights.onRegisterActionEvents() end
+function Lights.onStartReverseDirectionChange() end
+function Lights.onUpdate() end
+function Lights.onUpdateTick() end
+function Lights.onWriteStream() end
+function Lights.onWriteUpdateStream() end
+function Lights.prerequisitesPresent() end
+function Lights.registerEventListeners() end
+function Lights.registerEvents() end
+function Lights.registerFunctions() end
+function Lights.setBeaconLightsVisibility() end
+function Lights.setBrakeLightsVisibility() end
+function Lights.setInteriorLightsVisibility() end
+function Lights.setLightsTypesMask() end
+function Lights.setNextLightsState() end
+function Lights.setReverseLightsVisibility() end
+function Lights.setTurnLightState() end
+function Lights.updateAILights() end

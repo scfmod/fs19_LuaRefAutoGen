@@ -1,0 +1,52 @@
+---@class FruitTypeManager
+FruitTypeManager = {
+    GROUND_TYPE_CULTIVATOR = 1,
+    GROUND_TYPE_GRASS = 5,
+    GROUND_TYPE_NONE = 0,
+    GROUND_TYPE_PLOW = 2,
+    GROUND_TYPE_SOWING = 3,
+    GROUND_TYPE_SOWING_WIDTH = 4,
+    SEND_NUM_BITS = 6,
+}
+
+function FruitTypeManager.addFruitType() end
+function FruitTypeManager.addFruitTypeCategory() end
+function FruitTypeManager.addFruitTypeConversion() end
+function FruitTypeManager.addFruitTypeConverter() end
+function FruitTypeManager.addFruitTypeToCategory() end
+function FruitTypeManager.class() end
+function FruitTypeManager.copy() end
+function FruitTypeManager.getConverterDataByName() end
+function FruitTypeManager.getFillTypeByFruitTypeIndex() end
+function FruitTypeManager.getFillTypeIndexByFruitTypeIndex() end
+function FruitTypeManager.getFillTypeLiterPerSqm() end
+function FruitTypeManager.getFillTypesByFruitTypeCategoryName() end
+function FruitTypeManager.getFillTypesByFruitTypeNames() end
+function FruitTypeManager.getFruitTypeByFillTypeIndex() end
+function FruitTypeManager.getFruitTypeByIndex() end
+function FruitTypeManager.getFruitTypeByName() end
+function FruitTypeManager.getFruitTypeIndexByFillTypeIndex() end
+function FruitTypeManager.getFruitTypeNameByIndex() end
+function FruitTypeManager.getFruitTypes() end
+function FruitTypeManager.getFruitTypesByCategoryNames() end
+function FruitTypeManager.getFruitTypesByNames() end
+function FruitTypeManager.getWeedFruitType() end
+function FruitTypeManager.getWindrowFillTypeIndexByFruitTypeIndex() end
+function FruitTypeManager.initDataStructures() end
+function FruitTypeManager.isFillTypeWindrow() end
+function FruitTypeManager.isa() end
+function FruitTypeManager.loadDefaultTypes() end
+function FruitTypeManager.loadFruitTypeCultivation() end
+function FruitTypeManager.loadFruitTypeDestruction() end
+function FruitTypeManager.loadFruitTypeGeneral() end
+function FruitTypeManager.loadFruitTypeGrowth() end
+function FruitTypeManager.loadFruitTypeHarvest() end
+function FruitTypeManager.loadFruitTypeMapColors() end
+function FruitTypeManager.loadFruitTypeOptions() end
+function FruitTypeManager.loadFruitTypePreparing() end
+function FruitTypeManager.loadFruitTypeWeedData() end
+function FruitTypeManager.loadFruitTypeWindrow() end
+function FruitTypeManager.loadFruitTypes() end
+function FruitTypeManager.loadMapData() end
+function FruitTypeManager.new() end
+function FruitTypeManager.superClass() end

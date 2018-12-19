@@ -1,0 +1,250 @@
+---@class InGameMenuMapFrame
+InGameMenuMapFrame = {
+    CLEAR_INPUT_ACTIONS = {
+        [1] = 'MENU_ACTIVATE',
+        [5] = 'SWITCH_VEHICLE',
+        [6] = 'SWITCH_VEHICLE_BACK',
+        [7] = 'CAMERA_ZOOM_IN',
+        [4] = 'MENU_EXTRA_2',
+        [2] = 'MENU_CANCEL',
+        [3] = 'MENU_EXTRA_1',
+        [8] = 'CAMERA_ZOOM_OUT',
+    },
+    CONTEXT_BOX_BOTTOM_FRAME_PROFILE = 'ingameMenuMapContextBoxFrameBottom',
+    CONTEXT_BOX_CORNER_ALIGNMENT = {
+        bottomLeft = 'topRight',
+        bottomRight = 'topLeft',
+        topLeft = 'bottomRight',
+        topRight = 'bottomLeft',
+    },
+    CONTEXT_BOX_ORIENTATION = {
+        BOTTOM_LEFT = 'bottomLeft',
+        BOTTOM_RIGHT = 'bottomRight',
+        TOP_LEFT = 'topLeft',
+        TOP_RIGHT = 'topRight',
+    },
+    CONTEXT_BOX_TOP_FRAME_PROFILE = 'ingameMenuMapContextBoxFrameTop',
+    CONTROLS = {
+        BALANCE_TEXT = 'balanceText',
+        BUTTON_BOX = 'buttonBox',
+        BUTTON_BUY_FARMLAND = 'buttonBuyFarmland',
+        BUTTON_ENTER_VEHICLE = 'buttonEnterVehicle',
+        BUTTON_LAYOUT = 'buttonLayout',
+        BUTTON_RESET_VEHICLE = 'buttonResetVehicle',
+        BUTTON_SELECT = 'buttonSelectIngame',
+        BUTTON_SELL_FARMLAND = 'buttonSellFarmland',
+        BUTTON_SET_MARKER = 'buttonSetMarker',
+        BUTTON_SWITCH_MAP_MODE = 'buttonSwitchMapMode',
+        BUTTON_VISIT_PLACE = 'buttonVisitPlace',
+        CONTEXT_BOX = 'contextBox',
+        CONTEXT_BOX_CORNER = 'contextBoxCorner',
+        CONTEXT_FARM = 'contextFarm',
+        CONTEXT_IMAGE = 'contextImage',
+        CONTEXT_TEXT = 'contextText',
+        CROP_TYPE_FILTER_BOX = 'mapOverviewFruitTypeBox',
+        DYNAMIC_MAP_IMAGE_LOADING = 'dynamicMapImageLoading',
+        FARMLAND_VALUE_BOX = 'farmlandValueBox',
+        FARMLAND_VALUE_TEXT = 'farmlandValueText',
+        FILTER_BOX = 'filterBox',
+        FILTER_BUTTON_COMBINE = 'filterButtonCombine',
+        FILTER_BUTTON_FIELD_JOBS = 'filterButtonContracts',
+        FILTER_BUTTON_OTHER = 'filterButtonOther',
+        FILTER_BUTTON_TIPPING = 'filterButtonTipping',
+        FILTER_BUTTON_TOOL = 'filterButtonTool',
+        FILTER_BUTTON_TRAILER = 'filterButtonTrailer',
+        FILTER_BUTTON_VEHICLE = 'filterButtonVehicle',
+        FILTER_PAGING = 'filterPaging',
+        GROWTH_STATE_FILTER_BOX = 'mapOverviewGrowthBox',
+        GROWTH_STATE_FILTER_BUTTONS = 'growthStateFilterButton',
+        GROWTH_STATE_FILTER_COLORS = 'growthStateFilterColor',
+        GROWTH_STATE_FILTER_TEXTS = 'growthStateFilterText',
+        INGAME_MAP = 'ingameMap',
+        MAP_CONTROLS_DISPLAY = 'mapControls',
+        MAP_CURSOR = 'mapCursor',
+        MAP_OVERVIEW_SELECTOR = 'mapOverviewSelector',
+        MOVE_GLYPH_PLACEHOLDER = 'mapMoveGlyphPlaceholder',
+        SAFE_AREA = 'safeArea',
+        SOIL_STATE_FILTER_BOX = 'mapOverviewSoilBox',
+        SOIL_STATE_FILTER_BUTTONS = 'soilStateFilterButton',
+        SOIL_STATE_FILTER_COLORS = 'soilStateFilterColor',
+        SOIL_STATE_FILTER_TEXTS = 'soilStateFilterText',
+        ZOOM_GLYPH_PLACEHOLDER = 'mapZoomGlyphPlaceholder',
+    },
+    FRUITS_PER_PAGE = 15,
+    FRUIT_TYPE_BUTTON_ELEMENT = {
+        BUTTON = 'cropTypeFilterButton',
+        COLOR = 'cropTypeFilterColor',
+        ICON = 'cropTypeFilterIcon',
+        TYPE = 'cropTypeFilterText',
+    },
+    GLYPH_COLOR = {
+        [1] = 1,
+        [3] = 1,
+        [2] = 1,
+        [4] = 1,
+    },
+    GLYPH_SIZE = {
+        [1] = 36,
+        [2] = 36,
+    },
+    GLYPH_TEXT_SIZE = 20,
+    GROUND_STATE_FILTER_COLOR_PROFILE = 'ingameMenuMapFilterDynamicColorLarge',
+    HOTSPOT_FILTER_ICON_PROFILE = {
+        [true] = {
+            [0] = 'ingameMenuMapFilterButtonIconOther',
+            [2] = 'ingameMenuMapFilterButtonIconFieldJobs',
+            [10] = 'ingameMenuMapFilterButtonIconSteerable',
+            [7] = 'ingameMenuMapFilterButtonIconTool',
+            [8] = 'ingameMenuMapFilterButtonIconTrailer',
+            [3] = 'ingameMenuMapFilterButtonIconTipping',
+            [9] = 'ingameMenuMapFilterButtonIconCombine',
+        },
+        [false] = {
+            [0] = 'ingameMenuMapFilterButtonIconOtherInactive',
+            [2] = 'ingameMenuMapFilterButtonIconFieldJobsInactive',
+            [10] = 'ingameMenuMapFilterButtonIconSteerableInactive',
+            [7] = 'ingameMenuMapFilterButtonIconToolInactive',
+            [8] = 'ingameMenuMapFilterButtonIconTrailerInactive',
+            [3] = 'ingameMenuMapFilterButtonIconTippingInactive',
+            [9] = 'ingameMenuMapFilterButtonIconCombineInactive',
+        },
+    },
+    HOTSPOT_VALID_CATEGORIES = {
+        [0] = true,
+        [2] = true,
+        [10] = true,
+        [7] = true,
+        [8] = true,
+        [3] = true,
+        [9] = true,
+    },
+    INPUT_CONTEXT_NAME = 'MENU_MAP_OVERVIEW',
+    L10N_SYMBOL = {
+        DIALOG_BUY_FARMLAND = 'shop_messageBuyFarmlandText',
+        DIALOG_BUY_FARMLAND_NOT_ENOUGH_MONEY = 'shop_messageNotEnoughMoneyToBuyFarmland',
+        DIALOG_BUY_FARMLAND_TITLE = 'shop_messageBuyFarmlandTitle',
+        DIALOG_CANNOT_SELL_WTIH_PLACEABLES = 'shop_messageCannotSellFarmlandWithPlaceables',
+        DIALOG_SELL_FARMLAND = 'shop_messageSellFarmlandText',
+        DIALOG_SELL_FARMLAND_TITLE = 'shop_messageSellFarmlandTitle',
+        DIALOG_VEHICLE_IN_USE = 'shop_messageReturnVehicleInUse',
+        DIALOG_VEHICLE_NO_PERMISSION = 'shop_messageNoPermissionGeneral',
+        DIALOG_VEHICLE_RESET_CONFIRM = 'ui_wantToResetVehicleText',
+        DIALOG_VEHICLE_RESET_DONE = 'ui_vehicleResetDone',
+        DIALOG_VEHICLE_RESET_FAILED = 'ui_vehicleResetFailed',
+        INPUT_MOVE_CURSOR = 'ui_ingameMenuMapMoveCursor',
+        INPUT_PAN_MAP = 'ui_ingameMenuMapPan',
+        INPUT_ZOOM_MAP = 'ui_ingameMenuMapZoom',
+        MAP_SELECTOR_FRUIT_TYPES = 'ui_mapOverviewFruitTypes',
+        MAP_SELECTOR_GROWTH_STATES = 'ui_mapOverviewGrowth',
+        MAP_SELECTOR_SOIL_STATES = 'ui_mapOverviewSoil',
+        REMOVE_MARKER = 'action_untag',
+        SET_MARKER = 'action_tag',
+        SWITCH_FARMLANDS = 'ui_ingameMenuMapFarmlands',
+        SWITCH_OVERVIEW = 'ui_ingameMenuMapOverview',
+        VEHICLE_RESET = 'button_reset',
+    },
+    MAP_FRUIT_TYPE = 1,
+    MAP_GROWTH = 2,
+    MAP_SOIL = 3,
+    MODE_FARMLANDS = 2,
+    MODE_OVERVIEW = 1,
+    PROFILE = {
+        MONEY_VALUE_NEGATIVE = 'ingameMenuMapMoneyValueNegative',
+        MONEY_VALUE_NEUTRAL = 'ingameMenuMapMoneyValue',
+    },
+}
+
+function InGameMenuMapFrame.assignCropTypeFilterData() end
+function InGameMenuMapFrame.assignFilterData() end
+function InGameMenuMapFrame.assignGroundStateColors() end
+function InGameMenuMapFrame.assignGroundStateFilterData() end
+function InGameMenuMapFrame.checkPlaceablesOnFarmland() end
+function InGameMenuMapFrame.class() end
+function InGameMenuMapFrame.copy() end
+function InGameMenuMapFrame.copyAttributes() end
+function InGameMenuMapFrame.createInputGlyphs() end
+function InGameMenuMapFrame.delete() end
+function InGameMenuMapFrame.disableAlternateBindings() end
+function InGameMenuMapFrame.draw() end
+function InGameMenuMapFrame.generateFarmlandOverlay() end
+function InGameMenuMapFrame.generateOverviewOverlay() end
+function InGameMenuMapFrame.getContextBoxPositionAndOrientation() end
+function InGameMenuMapFrame.getHotspotData() end
+function InGameMenuMapFrame.hideContextBox() end
+function InGameMenuMapFrame.initialize() end
+function InGameMenuMapFrame.initializeFilterButtonState() end
+function InGameMenuMapFrame.isa() end
+function InGameMenuMapFrame.new() end
+function InGameMenuMapFrame.notifyPause() end
+function InGameMenuMapFrame.onClickBuyFarmland() end
+function InGameMenuMapFrame.onClickCropFilter() end
+function InGameMenuMapFrame.onClickEnterVehicle() end
+function InGameMenuMapFrame.onClickGrowthFilter() end
+function InGameMenuMapFrame.onClickHotspot() end
+function InGameMenuMapFrame.onClickMap() end
+function InGameMenuMapFrame.onClickMapFilterCombine() end
+function InGameMenuMapFrame.onClickMapFilterContracts() end
+function InGameMenuMapFrame.onClickMapFilterOther() end
+function InGameMenuMapFrame.onClickMapFilterSteerable() end
+function InGameMenuMapFrame.onClickMapFilterTipStations() end
+function InGameMenuMapFrame.onClickMapFilterTools() end
+function InGameMenuMapFrame.onClickMapFilterTrailer() end
+function InGameMenuMapFrame.onClickMapOverviewSelector() end
+function InGameMenuMapFrame.onClickResetVehicle() end
+function InGameMenuMapFrame.onClickSellFarmland() end
+function InGameMenuMapFrame.onClickSoilFilter() end
+function InGameMenuMapFrame.onClickSwitchMapMode() end
+function InGameMenuMapFrame.onClickTagPlace() end
+function InGameMenuMapFrame.onClickVisitPlace() end
+function InGameMenuMapFrame.onDrawPostIngameMap() end
+function InGameMenuMapFrame.onFarmlandOverlayFinished() end
+function InGameMenuMapFrame.onFarmlandStateChanged() end
+function InGameMenuMapFrame.onFilterButtonSelect() end
+function InGameMenuMapFrame.onFilterButtonUnselect() end
+function InGameMenuMapFrame.onFrameClose() end
+function InGameMenuMapFrame.onFrameOpen() end
+function InGameMenuMapFrame.onGuiSetupFinished() end
+function InGameMenuMapFrame.onInfoOkClick() end
+function InGameMenuMapFrame.onLoadMapFinished() end
+function InGameMenuMapFrame.onMenuActivate() end
+function InGameMenuMapFrame.onMenuCancel() end
+function InGameMenuMapFrame.onMoneyChanged() end
+function InGameMenuMapFrame.onOverviewOverlayFinished() end
+function InGameMenuMapFrame.onSwitchVehicle() end
+function InGameMenuMapFrame.onVehicleReset() end
+function InGameMenuMapFrame.onVehiclesChanged() end
+function InGameMenuMapFrame.onYesNoBuyFarmland() end
+function InGameMenuMapFrame.onYesNoReset() end
+function InGameMenuMapFrame.onYesNoSellFarmland() end
+function InGameMenuMapFrame.onZoomIn() end
+function InGameMenuMapFrame.onZoomOut() end
+function InGameMenuMapFrame.registerInput() end
+function InGameMenuMapFrame.reset() end
+function InGameMenuMapFrame.resetFarmlandSelection() end
+function InGameMenuMapFrame.resetUIDeadzones() end
+function InGameMenuMapFrame.selectFirstHotspot() end
+function InGameMenuMapFrame.setClient() end
+function InGameMenuMapFrame.setColorBlindMode() end
+function InGameMenuMapFrame.setFilterButtonDisplayEnabled() end
+function InGameMenuMapFrame.setFilterIconState() end
+function InGameMenuMapFrame.setInGameMap() end
+function InGameMenuMapFrame.setMapSelectionItem() end
+function InGameMenuMapFrame.setMissionFruitTypes() end
+function InGameMenuMapFrame.setPlayerFarm() end
+function InGameMenuMapFrame.setStaticUIDeadzone() end
+function InGameMenuMapFrame.setTerrainSize() end
+function InGameMenuMapFrame.setupMapOverview() end
+function InGameMenuMapFrame.showContextBox() end
+function InGameMenuMapFrame.showContextInput() end
+function InGameMenuMapFrame.showContextMarker() end
+function InGameMenuMapFrame.superClass() end
+function InGameMenuMapFrame.toggleFarmlandsHotspotFilterSettings() end
+function InGameMenuMapFrame.toggleFilter() end
+function InGameMenuMapFrame.toggleMapInput() end
+function InGameMenuMapFrame.unregisterInput() end
+function InGameMenuMapFrame.update() end
+function InGameMenuMapFrame.updateContextBoxPosition() end
+function InGameMenuMapFrame.updateContextInputBarVisibility() end
+function InGameMenuMapFrame.updateInputGlyphTransform() end
+function InGameMenuMapFrame.updateInputGlyphs() end
+function InGameMenuMapFrame.updateMapSelectionFilterNavigation() end

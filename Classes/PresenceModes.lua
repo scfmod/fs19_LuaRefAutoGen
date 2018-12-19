@@ -1,0 +1,8 @@
+---@class PresenceModes
+PresenceModes = {
+    PRESENCE_CAREER = 1,
+    PRESENCE_IDLE = 0,
+    PRESENCE_MULTIPLAYER = 3,
+    PRESENCE_MULTIPLAYER_ALONE = 4,
+    PRESENCE_TUTORIAL = 2,
+}

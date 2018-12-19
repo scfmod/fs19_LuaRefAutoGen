@@ -1,0 +1,93 @@
+---@class ModHubItemsFrame
+ModHubItemsFrame = {
+    CONTROLS = {
+        BASE_CATEGORY_LABEL = 'baseCategoryLabel',
+        BUTTON_LEFT = 'buttonLeft',
+        BUTTON_RIGHT = 'buttonRight',
+        CATEGORY_LABEL = 'categoryLabel',
+        DISCLAIMER = 'disclaimerLabel',
+        ITEMS_LIST = 'itemsList',
+        ITEMS_LIST_TEMPLATE = 'itemTemplate',
+        MOD_ATTRIBUTE_AUTHOR = 'modAttributeInfoAuthor',
+        MOD_ATTRIBUTE_BOX = 'modAttributeBox',
+        MOD_ATTRIBUTE_FILESIZE = 'modAttributeInfoSize',
+        MOD_ATTRIBUTE_NAME = 'modAttributeName',
+        MOD_ATTRIBUTE_PRICE = 'modAttributePrice',
+        MOD_ATTRIBUTE_PRICE_SPACE = 'modAttributeInfoPriceSpace',
+        MOD_ATTRIBUTE_RATING_BOX = 'modAttributeRatingBox',
+        MOD_ATTRIBUTE_RATING_SPACE = 'modAttributeInfoRatingSpace',
+        MOD_ATTRIBUTE_RATING_STAR = 'modAttributeRatingStar',
+        MOD_ATTRIBUTE_SIZE_SPACE = 'modAttributeInfoSizeSpace',
+        MOD_ATTRIBUTE_VERSION = 'modAttributeInfoVersion',
+        MOD_INFO_BOX = 'modInfoBox',
+        NAVIGATION_HEADER = 'breadcrumbs',
+        NO_MODS = 'noModsElement',
+    },
+    ITEM_IMAGE_NAME = 'itemIcon',
+    ITEM_STATUS_BAR = 'itemStatusBar',
+    ITEM_STATUS_BOX = 'itemStatusBox',
+    ITEM_STATUS_TEXT = 'itemStatusLabel',
+    ITEM_TITLE_LABEL_NAME = 'itemNameLabel',
+    L10N_SYMBOL = {
+        BUTTON_DETAILS = 'button_detail',
+        BUTTON_SEARCH = 'modHub_search',
+        BUTTON_SHOW_ALL = 'button_modHubShowAll',
+        BUTTON_SHOW_TOP = 'button_modHubShowTop',
+        STATUS_FAILED = 'modHub_failed',
+        STATUS_INSTALLED = 'modHub_installed',
+        STATUS_PENDING = 'modHub_pending',
+        STATUS_UPDATE = 'modHub_update',
+    },
+    MARKER_ELEMENT_NAME = 'itemMarker',
+    MARKER_TEXT_ELEMENT_NAME = 'itemMarkerText',
+    PROFILE = {
+        LIST_ITEM_NEUTRAL = 'modHubItemsListItem',
+        LIST_ITEM_SELECTED = 'modHubItemsListItemSelected',
+        MARKER_CONFLICTED = 'modHubMarkerConflict',
+        MARKER_NEW = 'modHubMarkerNew',
+        MARKER_UPDATE = 'modHubMarkerUpdate',
+        RATING_STAR = 'modHubAttributeRatingStar',
+        RATING_STAR_ACTIVE = 'modHubAttributeRatingStarActive',
+    },
+}
+
+function ModHubItemsFrame.class() end
+function ModHubItemsFrame.copy() end
+function ModHubItemsFrame.copyAttributes() end
+function ModHubItemsFrame.delete() end
+function ModHubItemsFrame.getMainElementPosition() end
+function ModHubItemsFrame.getMainElementSize() end
+function ModHubItemsFrame.getMenuButtonInfo() end
+function ModHubItemsFrame.initialize() end
+function ModHubItemsFrame.isa() end
+function ModHubItemsFrame.loadImageForElement() end
+function ModHubItemsFrame.new() end
+function ModHubItemsFrame.onButtonDetails() end
+function ModHubItemsFrame.onButtonSearch() end
+function ModHubItemsFrame.onButtonShowToggle() end
+function ModHubItemsFrame.onClickItem() end
+function ModHubItemsFrame.onClickLeft() end
+function ModHubItemsFrame.onClickRight() end
+function ModHubItemsFrame.onDoubleClickItem() end
+function ModHubItemsFrame.onFrameOpen() end
+function ModHubItemsFrame.onItemSelected() end
+function ModHubItemsFrame.onListItemAppear() end
+function ModHubItemsFrame.onScroll() end
+function ModHubItemsFrame.reload() end
+function ModHubItemsFrame.setBetaToggleTextCallback() end
+function ModHubItemsFrame.setBreadcrumbs() end
+function ModHubItemsFrame.setCategory() end
+function ModHubItemsFrame.setCategoryId() end
+function ModHubItemsFrame.setItemClickCallback() end
+function ModHubItemsFrame.setItemSelectCallback() end
+function ModHubItemsFrame.setListSizeLimit() end
+function ModHubItemsFrame.setModInfo() end
+function ModHubItemsFrame.setModItems() end
+function ModHubItemsFrame.setSearchCallback() end
+function ModHubItemsFrame.setToggleBetaCallback() end
+function ModHubItemsFrame.superClass() end
+function ModHubItemsFrame.update() end
+function ModHubItemsFrame.updateDownloadStates() end
+function ModHubItemsFrame.updateList() end
+function ModHubItemsFrame.updateModDownloadState() end
+function ModHubItemsFrame.updateScrollButtons() end

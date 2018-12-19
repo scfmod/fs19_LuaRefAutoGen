@@ -1,0 +1,83 @@
+---@class AIVehicle
+AIVehicle = {
+    NUM_BITS_REASONS = 4,
+    REASON_TEXT_MAPPING = {
+        [1] = 'ingameNotification_aiVehicleReasonUser',
+        [5] = 'ingameNotification_aiVehicleReasonOutOfFill',
+        [6] = 'ingameNotification_aiVehicleReasonBlockedByObject',
+        [7] = 'ingameNotification_aiVehicleReasonGrainTankIsFull',
+        [4] = 'ingameNotification_aiVehicleReasonOutOfFuel',
+        [2] = 'ingameNotification_aiVehicleReasonRegular',
+        [3] = 'ingameNotification_aiVehicleReasonUnkown',
+        [8] = 'ingameNotification_aiVehicleReasonFieldNotOwned',
+    },
+    STOP_REASON_BLOCKED_BY_OBJECT = 6,
+    STOP_REASON_FIELD_NOT_OWNED = 8,
+    STOP_REASON_GRAINTANK_IS_FULL = 7,
+    STOP_REASON_OUT_OF_FILL = 5,
+    STOP_REASON_OUT_OF_FUEL = 4,
+    STOP_REASON_REGULAR = 2,
+    STOP_REASON_UNKOWN = 3,
+    STOP_REASON_USER = 1,
+    TRAFFIC_COLLISION_BOX_FILENAME = '$data/shared/ai/trafficCollision.i3d',
+    numHirablesHired = 0,
+}
+
+function AIVehicle.actionEventToggleAIState() end
+function AIVehicle.addAIDebugLine() end
+function AIVehicle.addAIDebugText() end
+function AIVehicle.aiBlock() end
+function AIVehicle.aiContinue() end
+function AIVehicle.aiEndTurn() end
+function AIVehicle.aiStartTurn() end
+function AIVehicle.aiTurnProgress() end
+function AIVehicle.clearAIDebugLines() end
+function AIVehicle.clearAIDebugTexts() end
+function AIVehicle.getAICollisionTriggers() end
+function AIVehicle.getAIDidNotMoveTimeout() end
+function AIVehicle.getAIIsTurning() end
+function AIVehicle.getAINeedsTrafficCollisionBox() end
+function AIVehicle.getAISteeringSpeed() end
+function AIVehicle.getAIVehicleDirectionNode() end
+function AIVehicle.getAIVehicleReverserNode() end
+function AIVehicle.getAIVehicleSteeringNode() end
+function AIVehicle.getActiveFarm() end
+function AIVehicle.getAllowTireTracks() end
+function AIVehicle.getAttachedAIImplements() end
+function AIVehicle.getCanAIVehicleContinueWork() end
+function AIVehicle.getCanStartAIVehicle() end
+function AIVehicle.getCurrentHelper() end
+function AIVehicle.getDeactivateOnLeave() end
+function AIVehicle.getDirectionSnapAngle() end
+function AIVehicle.getDisableVehicleCharacterOnLeave() end
+function AIVehicle.getIsAIActive() end
+function AIVehicle.getIsActive() end
+function AIVehicle.getIsInUse() end
+function AIVehicle.getIsVehicleControlledByPlayer() end
+function AIVehicle.getStopMotorOnLeave() end
+function AIVehicle.initSpecialization() end
+function AIVehicle.onEnterVehicle() end
+function AIVehicle.onLeaveVehicle() end
+function AIVehicle.onLoad() end
+function AIVehicle.onReadStream() end
+function AIVehicle.onRegisterActionEvents() end
+function AIVehicle.onSetBroken() end
+function AIVehicle.onStateChange() end
+function AIVehicle.onUpdate() end
+function AIVehicle.onUpdateTick() end
+function AIVehicle.onWriteStream() end
+function AIVehicle.prerequisitesPresent() end
+function AIVehicle.raiseAIEvent() end
+function AIVehicle.registerAITask() end
+function AIVehicle.registerEventListeners() end
+function AIVehicle.registerEvents() end
+function AIVehicle.registerFunctions() end
+function AIVehicle.registerOverwrittenFunctions() end
+function AIVehicle.registerSecureAITask() end
+function AIVehicle.saveStatsToXMLFile() end
+function AIVehicle.setAIMapHotspotBlinking() end
+function AIVehicle.setAIMapHotspotVisibility() end
+function AIVehicle.startAIVehicle() end
+function AIVehicle.stopAIVehicle() end
+function AIVehicle.updateAIDriveStrategies() end
+function AIVehicle.updateAIImplementData() end

@@ -1,0 +1,59 @@
+---@class GuiTopDownCamera
+GuiTopDownCamera = {
+    DISTANCE_MIN_Z = -10,
+    DISTANCE_RANGE_Z = -60,
+    GROUND_DISTANCE_MIN_Y = 2,
+    INPUT_MOVE_FACTOR = 0.0625,
+    L10N_SYMBOL = {
+        ACTION_MOVE = 'ui_movePlaceable',
+        ACTION_RESET_CAMERA = 'setting_resetUICamera',
+        ACTION_ROTATE_CAMERA = 'action_rotateCamera',
+        ACTION_ROTATE_OBJECT = 'action_rotate',
+        ACTION_ZOOM = 'action_cameraZoom',
+    },
+    MOVE_SPEED = 0.02,
+    ROTATION_MIN_X = 15,
+    ROTATION_RANGE_X = 15,
+    ROTATION_SPEED = 0.0005,
+    TERRAIN_BORDER = 40,
+}
+
+function GuiTopDownCamera.activate() end
+function GuiTopDownCamera.applyMovement() end
+function GuiTopDownCamera.class() end
+function GuiTopDownCamera.copy() end
+function GuiTopDownCamera.createCameraNodes() end
+function GuiTopDownCamera.deactivate() end
+function GuiTopDownCamera.delete() end
+function GuiTopDownCamera.determineMapPosition() end
+function GuiTopDownCamera.getIsActive() end
+function GuiTopDownCamera.getMouseEdgeScrollingMovement() end
+function GuiTopDownCamera.getPickRay() end
+function GuiTopDownCamera.hasRotationInput() end
+function GuiTopDownCamera.isa() end
+function GuiTopDownCamera.mouseEvent() end
+function GuiTopDownCamera.new() end
+function GuiTopDownCamera.onInputModeChanged() end
+function GuiTopDownCamera.onInputRun() end
+function GuiTopDownCamera.onMoveForward() end
+function GuiTopDownCamera.onMoveSide() end
+function GuiTopDownCamera.onRotate() end
+function GuiTopDownCamera.onZoom() end
+function GuiTopDownCamera.registerActionEvents() end
+function GuiTopDownCamera.removeActionEvents() end
+function GuiTopDownCamera.reset() end
+function GuiTopDownCamera.resetInputState() end
+function GuiTopDownCamera.resetToPlayer() end
+function GuiTopDownCamera.setControlledPlayer() end
+function GuiTopDownCamera.setControlledVehicle() end
+function GuiTopDownCamera.setHUD() end
+function GuiTopDownCamera.setMapPosition() end
+function GuiTopDownCamera.setMouseEdgeScrollingActive() end
+function GuiTopDownCamera.setMovementActive() end
+function GuiTopDownCamera.setTerrainRootNode() end
+function GuiTopDownCamera.setWaterLevelHeight() end
+function GuiTopDownCamera.showInputHelp() end
+function GuiTopDownCamera.superClass() end
+function GuiTopDownCamera.update() end
+function GuiTopDownCamera.updateMovement() end
+function GuiTopDownCamera.updatePosition() end

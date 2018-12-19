@@ -1,0 +1,97 @@
+---@class PlacementScreenController
+PlacementScreenController = {
+    DISPLACEMENT_COST_PER_M3 = 5,
+    INPUT_CONTEXT_NAME = 'PLACEMENT',
+    L10N_SYMBOL = {
+        ACTION_MOVE = 'ui_movePlaceable',
+        ACTION_PLACEMENT_HEIGHT = 'action_changePlacementHeight',
+        ACTION_RESET_CAMERA = 'setting_resetUICamera',
+        ACTION_ROTATE_CAMERA = 'action_rotateCamera',
+        ACTION_ROTATE_OBJECT = 'action_rotate',
+        ACTION_ZOOM = 'action_cameraZoom',
+        BUTTON_BACK = 'button_back',
+        BUTTON_BUY = 'button_buy',
+        BUTTON_SELL = 'button_sell',
+        WARNING_NOT_ENOUGH_MONEY = 'shop_messageNotEnoughMoneyToBuy',
+        WARNING_NOT_ENOUGH_SLOTS = 'shop_messageNotEnoughSlotsToBuy',
+        WARNING_NOT_OWNED = 'warning_youDontOwnThisItem',
+        WARNING_TOO_MANY_TREES = 'warning_tooManyTrees',
+    },
+    MESSAGE = {
+        NOT_ENOUGH_MONEY = 3,
+        NOT_ENOUGH_SLOTS = 4,
+        SELL_ITEM = 2,
+        SELL_WARNING_INFO = 1,
+        TOO_MANY_TREES = 5,
+    },
+    MOVE_FACTOR = 0.0625,
+    PLACEMENT_COLLISION_MASK = 4576,
+    PLACEMENT_REASON_BLOCKED = 10,
+    PLACEMENT_REASON_CANNOT_BE_BOUGHT = 3,
+    PLACEMENT_REASON_CANNOT_BE_PLACED_AT_POSITION = 4,
+    PLACEMENT_REASON_DEFORM_FAILED = 11,
+    PLACEMENT_REASON_NOT_OWNED_FARMLAND = 2,
+    PLACEMENT_REASON_OBJECT_COLLISION = 6,
+    PLACEMENT_REASON_PLAYER_COLLISION = 5,
+    PLACEMENT_REASON_RESTRICTED_AREA = 7,
+    PLACEMENT_REASON_SPAWN_PLACE = 8,
+    PLACEMENT_REASON_STORE_PLACE = 9,
+    PLACEMENT_REASON_SUCCESS = 1,
+    PLACEMENT_REASON_UNKNOWN = 12,
+    SNAP_ANGLE = 0.13089969389957,
+    SNAP_MOVE_TIME = 1000,
+    SNAP_SIZE = 10,
+}
+
+function PlacementScreenController.acceptSelection() end
+function PlacementScreenController.activate() end
+function PlacementScreenController.buyPlaceable() end
+function PlacementScreenController.calculatePlacementHeight() end
+function PlacementScreenController.canBuy() end
+function PlacementScreenController.canPlace() end
+function PlacementScreenController.cancelTerrainDeformation() end
+function PlacementScreenController.class() end
+function PlacementScreenController.clearPlaceable() end
+function PlacementScreenController.copy() end
+function PlacementScreenController.deactivate() end
+function PlacementScreenController.findSellObjectAt() end
+function PlacementScreenController.initializeCamera() end
+function PlacementScreenController.isPlacementValid() end
+function PlacementScreenController.isa() end
+function PlacementScreenController.mouseEvent() end
+function PlacementScreenController.new() end
+function PlacementScreenController.onChangePlaceableHeight() end
+function PlacementScreenController.onInputRun() end
+function PlacementScreenController.onInputSnap() end
+function PlacementScreenController.onMenuBack() end
+function PlacementScreenController.onPlaceableBought() end
+function PlacementScreenController.onPlaceableBuyFailed() end
+function PlacementScreenController.onPlaceableSellFailed() end
+function PlacementScreenController.onPlaceableSold() end
+function PlacementScreenController.onPlacementRaycastHit() end
+function PlacementScreenController.onRotatePlaceable() end
+function PlacementScreenController.onSellCallback() end
+function PlacementScreenController.onSellObjectRaycast() end
+function PlacementScreenController.onTerrainValidationFinished() end
+function PlacementScreenController.onToggleInputHelp() end
+function PlacementScreenController.raycastPlacement() end
+function PlacementScreenController.registerActionEvents() end
+function PlacementScreenController.removeActionEvents() end
+function PlacementScreenController.reset() end
+function PlacementScreenController.resetInputState() end
+function PlacementScreenController.sellPlaceable() end
+function PlacementScreenController.sellWarningInfoOk() end
+function PlacementScreenController.setClient() end
+function PlacementScreenController.setCurrentMission() end
+function PlacementScreenController.setExitCallback() end
+function PlacementScreenController.setHUD() end
+function PlacementScreenController.setIsGamePaused() end
+function PlacementScreenController.setMessageDispatchCallback() end
+function PlacementScreenController.setPlacementItem() end
+function PlacementScreenController.startPlacementTerrainValidation() end
+function PlacementScreenController.superClass() end
+function PlacementScreenController.update() end
+function PlacementScreenController.updateActionEvents() end
+function PlacementScreenController.updatePreviewHeight() end
+function PlacementScreenController.updatePreviewRotation() end
+function PlacementScreenController.updateSlots() end

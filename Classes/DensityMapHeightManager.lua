@@ -1,0 +1,46 @@
+---@class DensityMapHeightManager
+DensityMapHeightManager = {} -- empty
+
+function DensityMapHeightManager.addDensityMapHeightType() end
+function DensityMapHeightManager.checkTypeMappings() end
+function DensityMapHeightManager.class() end
+function DensityMapHeightManager.copy() end
+function DensityMapHeightManager.getConvertingFillTypesAreas() end
+function DensityMapHeightManager.getDensityMapHeightTypeByFillTypeIndex() end
+function DensityMapHeightManager.getDensityMapHeightTypeByFillTypeName() end
+function DensityMapHeightManager.getDensityMapHeightTypeByIndex() end
+function DensityMapHeightManager.getDensityMapHeightTypeIndexByFillTypeIndex() end
+function DensityMapHeightManager.getDensityMapHeightTypeIndexByFillTypeName() end
+function DensityMapHeightManager.getDensityMapHeightTypes() end
+function DensityMapHeightManager.getFillTypeIndexByDensityHeightMapIndex() end
+function DensityMapHeightManager.getFillTypeNameByDensityHeightMapIndex() end
+function DensityMapHeightManager.getFillTypeToDensityMapHeightTypes() end
+function DensityMapHeightManager.getFixedFillTypesAreas() end
+function DensityMapHeightManager.getIsValid() end
+function DensityMapHeightManager.getMinValidLiterValue() end
+function DensityMapHeightManager.getTerrainDetailHeightUpdater() end
+function DensityMapHeightManager.initDataStructures() end
+function DensityMapHeightManager.initialize() end
+function DensityMapHeightManager.isa() end
+function DensityMapHeightManager.loadDefaultTypes() end
+function DensityMapHeightManager.loadDensityMapHeightTypes() end
+function DensityMapHeightManager.loadFromXMLFile() end
+function DensityMapHeightManager.loadMapData() end
+function DensityMapHeightManager.new() end
+function DensityMapHeightManager.prepareSaveCollisionMap() end
+function DensityMapHeightManager.prepareSavePlacementCollisionMap() end
+function DensityMapHeightManager.removeConvertingFillTypeAreas() end
+function DensityMapHeightManager.removeFixedFillTypesArea() end
+function DensityMapHeightManager.saveCollisionMap() end
+function DensityMapHeightManager.savePlacementCollisionMap() end
+function DensityMapHeightManager.savePreparedCollisionMap() end
+function DensityMapHeightManager.savePreparedPlacementCollisionMap() end
+function DensityMapHeightManager.saveToXMLFile() end
+function DensityMapHeightManager.setCollisionMapAreaDirty() end
+function DensityMapHeightManager.setConvertingFillTypeAreas() end
+function DensityMapHeightManager.setFixedFillTypesArea() end
+function DensityMapHeightManager.superClass() end
+function DensityMapHeightManager.update() end
+function DensityMapHeightManager.updateCollisionMap() end
+function DensityMapHeightManager.visualizeCollisionMap() end
+function DensityMapHeightManager.visualizePlacementCollisionMap() end

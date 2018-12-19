@@ -1,0 +1,39 @@
+---@class FSDensityMapUtil
+FSDensityMapUtil = {
+    DEBUG_ENABLED = false,
+}
+
+function FSDensityMapUtil.assert() end
+function FSDensityMapUtil.convertToDensityMapAngle() end
+function FSDensityMapUtil.cutFruitArea() end
+function FSDensityMapUtil.eraseTireTrack() end
+function FSDensityMapUtil.getAreaDensity() end
+function FSDensityMapUtil.getFieldDensity() end
+function FSDensityMapUtil.getFieldStatus() end
+function FSDensityMapUtil.getFieldStatusAsync() end
+function FSDensityMapUtil.getFieldValue() end
+function FSDensityMapUtil.getFruitArea() end
+function FSDensityMapUtil.getStatus() end
+function FSDensityMapUtil.getTireTrackColorFromDensityBits() end
+function FSDensityMapUtil.getWeedFactor() end
+function FSDensityMapUtil.initTerrain() end
+function FSDensityMapUtil.removeFieldArea() end
+function FSDensityMapUtil.removeSprayArea() end
+function FSDensityMapUtil.removeWeedArea() end
+function FSDensityMapUtil.resetSprayArea() end
+function FSDensityMapUtil.setGroundTypeLayerArea() end
+function FSDensityMapUtil.setWeedArea() end
+function FSDensityMapUtil.updateCultivatorArea() end
+function FSDensityMapUtil.updateDestroyCommonArea() end
+function FSDensityMapUtil.updateDirectSowingArea() end
+function FSDensityMapUtil.updateFertilizerArea() end
+function FSDensityMapUtil.updateFruitPreparerArea() end
+function FSDensityMapUtil.updateHerbicideArea() end
+function FSDensityMapUtil.updateLimeArea() end
+function FSDensityMapUtil.updatePlowArea() end
+function FSDensityMapUtil.updateRollerArea() end
+function FSDensityMapUtil.updateSowingArea() end
+function FSDensityMapUtil.updateSprayArea() end
+function FSDensityMapUtil.updateSubsoilerArea() end
+function FSDensityMapUtil.updateWeederArea() end
+function FSDensityMapUtil.updateWheelDestructionArea() end

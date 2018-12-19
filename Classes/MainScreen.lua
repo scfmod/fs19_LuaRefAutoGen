@@ -1,0 +1,80 @@
+---@class MainScreen
+MainScreen = {
+    CONTROLS = {
+        BACKGROUND_BLURRY = 'backgroundBlurImage',
+        BACKGROUND_GLASSEDGE = 'glassEdgeOverlay',
+        BACKGROUND_IMAGE = 'backgroundImage',
+        BACKGROUND_TRACTOR = 'backgroundTractor',
+        BUTTON_BOX = 'buttonBox',
+        BUTTON_NOTIFICATION_LEFT = 'notificationButtonLeft',
+        BUTTON_NOTIFICATION_OPEN = 'notificationButtonOpen',
+        BUTTON_NOTIFICATION_RIGHT = 'notificationButtonRight',
+        GAMER_TAG_ELEMENT = 'gamerTagElement',
+        LOGO = 'logo',
+        NOTIFICATION_BOX = 'notificationElement',
+        NOTIFICATION_DATE = 'notificationDate',
+        NOTIFICATION_IMAGE = 'notificationImage',
+        NOTIFICATION_INDEX_STATE = 'indexState',
+        NOTIFICATION_MESSAGE = 'notificationMessage',
+        NOTIFICATION_TITLE = 'notificationTitle',
+    },
+    IMAGES = {
+        [1] = {
+            filename = 'dataS2/menu/menuTractors/menuTractor_01.png',
+            sizeFactor = 1,
+        },
+    },
+    NOTIFICATION_ANIMATION_DURATION = 500,
+    NOTIFICATION_ANIM_DELAY = 2000,
+    NOTIFICATION_CHECK_DELAY = 500,
+}
+
+function MainScreen.assignNotificationData() end
+function MainScreen.class() end
+function MainScreen.copy() end
+function MainScreen.cycleNotification() end
+function MainScreen.isa() end
+function MainScreen.new() end
+function MainScreen.onAchievementsClick() end
+function MainScreen.onCareerClick() end
+function MainScreen.onChangeUserClick() end
+function MainScreen.onClickMenuExtra1() end
+function MainScreen.onClickNextNotification() end
+function MainScreen.onClickOpenNotification() end
+function MainScreen.onClickPreviousNotification() end
+function MainScreen.onClose() end
+function MainScreen.onCreate() end
+function MainScreen.onCreateAchievementsButton() end
+function MainScreen.onCreateCareerButton() end
+function MainScreen.onCreateChangeUserButton() end
+function MainScreen.onCreateCreditsButton() end
+function MainScreen.onCreateDownloadModsButton() end
+function MainScreen.onCreateGameVersion() end
+function MainScreen.onCreateMultiplayerButton() end
+function MainScreen.onCreateQuitButton() end
+function MainScreen.onCreateSettingsButton() end
+function MainScreen.onCreateStoreButton() end
+function MainScreen.onCreateTutorialsButton() end
+function MainScreen.onCreditsClick() end
+function MainScreen.onDlcCorruptClick() end
+function MainScreen.onDownloadModsClick() end
+function MainScreen.onDownloadModsClickPerform() end
+function MainScreen.onHighlight() end
+function MainScreen.onMultiplayerClick() end
+function MainScreen.onMultiplayerClickPerform() end
+function MainScreen.onOpen() end
+function MainScreen.onQuitClick() end
+function MainScreen.onRestartModDialog() end
+function MainScreen.onSettingsClick() end
+function MainScreen.onStoreClick() end
+function MainScreen.onStoreFailedOk() end
+function MainScreen.onTutorialsClick() end
+function MainScreen.onYesNoUseGamepadMode() end
+function MainScreen.onYesNoUseHeadTracking() end
+function MainScreen.resetNotifications() end
+function MainScreen.setNotificationButtonsDisabled() end
+function MainScreen.setupNotifications() end
+function MainScreen.superClass() end
+function MainScreen.update() end
+function MainScreen.updateFading() end
+function MainScreen.updateNotifications() end

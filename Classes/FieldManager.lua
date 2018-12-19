@@ -1,0 +1,43 @@
+---@class FieldManager
+FieldManager = {
+    FIELDEVENT_CULTIVATED = 2,
+    FIELDEVENT_GROWING = 9,
+    FIELDEVENT_GROWN = 4,
+    FIELDEVENT_HARVESTED = 3,
+    FIELDEVENT_PLOWED = 1,
+    FIELDEVENT_SOWN = 7,
+    FIELDEVENT_SPRAYED = 6,
+    FIELDEVENT_WEEDED = 5,
+    FIELDEVENT_WITHERED = 8,
+    FIELDSTATE_CULTIVATED = 1,
+    FIELDSTATE_GROWING = 2,
+    FIELDSTATE_HARVESTED = 3,
+    FIELDSTATE_PLOWED = 0,
+}
+
+function FieldManager.addField() end
+function FieldManager.class() end
+function FieldManager.consoleCommandSetFieldFruit() end
+function FieldManager.consoleCommandSetFieldFruitAll() end
+function FieldManager.consoleCommandSetFieldGround() end
+function FieldManager.consoleCommandSetFieldGroundAll() end
+function FieldManager.copy() end
+function FieldManager.delete() end
+function FieldManager.farmPropertyChanged() end
+function FieldManager.findFieldFruit() end
+function FieldManager.findFieldSizes() end
+function FieldManager.getFieldByIndex() end
+function FieldManager.getFields() end
+function FieldManager.getFruitIndexForField() end
+function FieldManager.initDataStructures() end
+function FieldManager.isa() end
+function FieldManager.loadMapData() end
+function FieldManager.new() end
+function FieldManager.onFarmlandStateChanged() end
+function FieldManager.setFielGround() end
+function FieldManager.setFieldFruit() end
+function FieldManager.setFieldPartitionStatus() end
+function FieldManager.superClass() end
+function FieldManager.unloadMapData() end
+function FieldManager.update() end
+function FieldManager.updateFieldOwnership() end

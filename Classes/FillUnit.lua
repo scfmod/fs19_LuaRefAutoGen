@@ -1,0 +1,102 @@
+---@class FillUnit
+FillUnit = {
+    CAPACITY_TO_NETWORK_BITS = {
+        [0] = 16,
+        [1] = 12,
+        [2048] = 16,
+    },
+    EXACTFILLROOTNODE_MASK = 1073741824,
+}
+
+function FillUnit.actionEventConsoleFillUnitDec() end
+function FillUnit.actionEventConsoleFillUnitInc() end
+function FillUnit.actionEventConsoleFillUnitNext() end
+function FillUnit.actionEventUnload() end
+function FillUnit.addFillTypeSources() end
+function FillUnit.addFillUnitFillLevel() end
+function FillUnit.addFillUnitTrigger() end
+function FillUnit.addNodeObjectMapping() end
+function FillUnit.emptyAllFillUnits() end
+function FillUnit.getAdditionalComponentMass() end
+function FillUnit.getAlarmTriggerIsActive() end
+function FillUnit.getDoConsumePtoPower() end
+function FillUnit.getDrawFirstFillText() end
+function FillUnit.getFillLevelInformation() end
+function FillUnit.getFillTypeChangeThreshold() end
+function FillUnit.getFillUnitAllowsFillType() end
+function FillUnit.getFillUnitAutoAimTargetNode() end
+function FillUnit.getFillUnitByIndex() end
+function FillUnit.getFillUnitCapacity() end
+function FillUnit.getFillUnitExactFillRootNode() end
+function FillUnit.getFillUnitExists() end
+function FillUnit.getFillUnitExtraDistanceFromNode() end
+function FillUnit.getFillUnitFillLevel() end
+function FillUnit.getFillUnitFillLevelPercentage() end
+function FillUnit.getFillUnitFillType() end
+function FillUnit.getFillUnitFirstSupportedFillType() end
+function FillUnit.getFillUnitForcedMaterialFillType() end
+function FillUnit.getFillUnitFreeCapacity() end
+function FillUnit.getFillUnitFromNode() end
+function FillUnit.getFillUnitIndexFromNode() end
+function FillUnit.getFillUnitLastValidFillType() end
+function FillUnit.getFillUnitRootNode() end
+function FillUnit.getFillUnitSupportedFillTypes() end
+function FillUnit.getFillUnitSupportedToolTypes() end
+function FillUnit.getFillUnitSupportsFillType() end
+function FillUnit.getFillUnitSupportsToolType() end
+function FillUnit.getFillUnitSupportsToolTypeAndFillType() end
+function FillUnit.getFillUnits() end
+function FillUnit.getFirstValidFillUnitToFill() end
+function FillUnit.getIsFillUnitActive() end
+function FillUnit.getIsFoldAllowed() end
+function FillUnit.getIsMovingToolActive() end
+function FillUnit.getIsPowerTakeOffActive() end
+function FillUnit.getIsReadyForAutomatedTrainTravel() end
+function FillUnit.getSpecValueCapacity() end
+function FillUnit.getSpecValueFillTypes() end
+function FillUnit.initSpecialization() end
+function FillUnit.loadAlarmTrigger() end
+function FillUnit.loadFillPlane() end
+function FillUnit.loadFillUnitFromXML() end
+function FillUnit.loadFillUnitUnloadingFromXML() end
+function FillUnit.loadMeasurementNode() end
+function FillUnit.loadMovingToolFromXML() end
+function FillUnit.loadSpecValueCapacity() end
+function FillUnit.loadSpecValueFillTypes() end
+function FillUnit.onDeactivate() end
+function FillUnit.onDelete() end
+function FillUnit.onDraw() end
+function FillUnit.onLoad() end
+function FillUnit.onPostLoad() end
+function FillUnit.onReadStream() end
+function FillUnit.onReadUpdateStream() end
+function FillUnit.onRegisterActionEvents() end
+function FillUnit.onUpdateTick() end
+function FillUnit.onWriteStream() end
+function FillUnit.onWriteUpdateStream() end
+function FillUnit.prerequisitesPresent() end
+function FillUnit.registerEventListeners() end
+function FillUnit.registerEvents() end
+function FillUnit.registerFunctions() end
+function FillUnit.registerOverwrittenFunctions() end
+function FillUnit.removeFillUnitTrigger() end
+function FillUnit.removeNodeObjectMapping() end
+function FillUnit.saveStatsToXMLFile() end
+function FillUnit.saveToXMLFile() end
+function FillUnit.setAlarmTriggerState() end
+function FillUnit.setFillPlaneForcedFillType() end
+function FillUnit.setFillSoundIsPlaying() end
+function FillUnit.setFillUnitCapacity() end
+function FillUnit.setFillUnitFillLevelToDisplay() end
+function FillUnit.setFillUnitFillType() end
+function FillUnit.setFillUnitFillTypeToDisplay() end
+function FillUnit.setFillUnitForcedMaterialFillType() end
+function FillUnit.setFillUnitIsFilling() end
+function FillUnit.setFillUnitLastValidFillType() end
+function FillUnit.unloadFillUnits() end
+function FillUnit.updateAlarmTriggers() end
+function FillUnit.updateFillUnitAutoAimTarget() end
+function FillUnit.updateFillUnitFillPlane() end
+function FillUnit.updateFillUnitTriggers() end
+function FillUnit.updateMeasurementNodes() end
+function FillUnit.updateUnloadActionDisplay() end

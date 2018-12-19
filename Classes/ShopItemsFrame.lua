@@ -1,0 +1,78 @@
+---@class ShopItemsFrame
+ShopItemsFrame = {
+    CONTROLS = {
+        ATTRIBUTE_BOXES = 'attrBox',
+        ATTRIBUTE_ICONS = 'attrIcon',
+        ATTRIBUTE_ROW_LAYOUTS = 'attrRow',
+        ATTRIBUTE_VALUES = 'attrValue',
+        BASE_CATEGORY_LABEL = 'baseCategoryLabel',
+        BUTTON_LEFT = 'buttonLeft',
+        BUTTON_RIGHT = 'buttonRight',
+        CATEGORY_LABEL = 'categoryLabel',
+        CURRENT_BALANCE_LABEL = 'currentBalanceLabel',
+        CURRENT_BALANCE_TEXT = 'currentBalanceText',
+        DETAIL_BOX = 'detailBox',
+        FILL_TYPE_ICON_TEMPLATE = 'fruitIconTemplate',
+        ITEMS_HEADER_ICON = 'itemsHeaderIcon',
+        ITEMS_HEADER_TEXT = 'itemsHeaderText',
+        ITEMS_LIST = 'itemsList',
+        ITEMS_LIST_TEMPLATE = 'itemTemplate',
+        ITEM_BASE_INFO_DESCRIPTION = 'itemInfoDescription',
+        ITEM_BASE_INFO_LAYOUT = 'baseInfoLayout',
+        ITEM_BASE_INFO_TITLE = 'itemInfoTitle',
+        ITEM_FUNCTION_ICON = 'shopListAttributeInfoIcon',
+        ITEM_FUNCTION_TEXT = 'shopListAttributeInfo',
+        NAVIGATION_HEADER = 'navHeader',
+        SHOP_SLOTS_ICON = 'shopSlotsIcon',
+        SHOP_SLOTS_TEXT = 'shopSlotsText',
+    },
+    ITEM_BRAND_IMAGE_NAME = 'itemBrandIcon',
+    ITEM_IMAGE_NAME = 'itemIcon',
+    ITEM_MODDLC_LABEL_NAME = 'itemModDlcLabel',
+    ITEM_PRICE_LABEL_NAME = 'itemValueLabel',
+    ITEM_TITLE_LABEL_NAME = 'itemNameLabel',
+    NUM_ATTRIBUTES_PER_ROW = 5,
+    PROFILE = {
+        BALANCE_NEGATIVE = 'shopMoneyNeg',
+        BALANCE_POSITIVE = 'shopMoney',
+        ICON_FILL_TYPES = 'shopListAttributeIconFillTypes',
+        ICON_FILL_TYPES_PLUS = 'shopListAttributeIconPlus',
+        ICON_FRUIT_TYPE = 'shopListAttributeFruitIcon',
+        ICON_SEED_FILL_TYPES = 'shopListAttributeIconSeeds',
+        LIST_ITEM_NEUTRAL = 'shopItemsListItem',
+        LIST_ITEM_SELECTED = 'shopItemsListItemSelected',
+    },
+    SLOTS_USAGE_CRITICAL_THRESHOLD = 0.9,
+}
+
+function ShopItemsFrame.assignItemAttributeData() end
+function ShopItemsFrame.assignItemFillTypesData() end
+function ShopItemsFrame.assignItemTextData() end
+function ShopItemsFrame.class() end
+function ShopItemsFrame.copy() end
+function ShopItemsFrame.copyAttributes() end
+function ShopItemsFrame.delete() end
+function ShopItemsFrame.getMainElementPosition() end
+function ShopItemsFrame.getMainElementSize() end
+function ShopItemsFrame.getStoreItemDisplayPrice() end
+function ShopItemsFrame.initialize() end
+function ShopItemsFrame.isa() end
+function ShopItemsFrame.new() end
+function ShopItemsFrame.onClickItem() end
+function ShopItemsFrame.onClickLeft() end
+function ShopItemsFrame.onClickRight() end
+function ShopItemsFrame.onDoubleClickItem() end
+function ShopItemsFrame.onFrameOpen() end
+function ShopItemsFrame.onItemSelected() end
+function ShopItemsFrame.onScroll() end
+function ShopItemsFrame.setCategory() end
+function ShopItemsFrame.setCurrentBalance() end
+function ShopItemsFrame.setDisplayItems() end
+function ShopItemsFrame.setHeader() end
+function ShopItemsFrame.setItemClickCallback() end
+function ShopItemsFrame.setItemSelectCallback() end
+function ShopItemsFrame.setShowBalance() end
+function ShopItemsFrame.setShowNavigation() end
+function ShopItemsFrame.setSlotsUsage() end
+function ShopItemsFrame.superClass() end
+function ShopItemsFrame.updateScrollButtons() end

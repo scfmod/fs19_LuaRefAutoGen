@@ -1,0 +1,39 @@
+---@class TensionBelts
+TensionBelts = {
+    NUM_SEND_BITS = 4,
+    debugRendering = false,
+}
+
+function TensionBelts.actionEventToggleTensionBelts() end
+function TensionBelts.consoleCommandToggleTensionBeltDebugRendering() end
+function TensionBelts.createTensionBelt() end
+function TensionBelts.freeTensionBeltObject() end
+function TensionBelts.getCanBeSelected() end
+function TensionBelts.getIsDynamicallyMountedNode() end
+function TensionBelts.getIsPlayerInTensionBeltsRange() end
+function TensionBelts.getIsReadyForAutomatedTrainTravel() end
+function TensionBelts.getObjectToMount() end
+function TensionBelts.getObjectsToUnmount() end
+function TensionBelts.initSpecialization() end
+function TensionBelts.lockTensionBeltObject() end
+function TensionBelts.objectOverlapCallback() end
+function TensionBelts.onDelete() end
+function TensionBelts.onDraw() end
+function TensionBelts.onLoad() end
+function TensionBelts.onPostLoad() end
+function TensionBelts.onPreDelete() end
+function TensionBelts.onReadStream() end
+function TensionBelts.onRegisterActionEvents() end
+function TensionBelts.onUpdate() end
+function TensionBelts.onUpdateTick() end
+function TensionBelts.onWriteStream() end
+function TensionBelts.prerequisitesPresent() end
+function TensionBelts.refreshTensionBelts() end
+function TensionBelts.registerEventListeners() end
+function TensionBelts.registerFunctions() end
+function TensionBelts.registerOverwrittenFunctions() end
+function TensionBelts.removeTensionBelt() end
+function TensionBelts.saveToXMLFile() end
+function TensionBelts.setTensionBeltsActive() end
+function TensionBelts.tensionBeltActivationTriggerCallback() end
+function TensionBelts.updateFastenState() end

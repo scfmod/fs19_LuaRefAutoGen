@@ -1,0 +1,51 @@
+---@class SowingMachine
+SowingMachine = {
+    DAMAGED_USAGE_INCREASE = 0.3,
+}
+
+function SowingMachine.actionEventToggleSeedType() end
+function SowingMachine.addFillUnitFillLevel() end
+function SowingMachine.doCheckSpeedLimit() end
+function SowingMachine.getAllowFillFromAir() end
+function SowingMachine.getCanBeSelected() end
+function SowingMachine.getCanToggleTurnedOn() end
+function SowingMachine.getDefaultSpeedLimit() end
+function SowingMachine.getDirectionSnapAngle() end
+function SowingMachine.getDirtMultiplier() end
+function SowingMachine.getDrawFirstFillText() end
+function SowingMachine.getFillUnitAllowsFillType() end
+function SowingMachine.getIsSeedChangeAllowed() end
+function SowingMachine.getSpecValueSeedFillTypes() end
+function SowingMachine.getUseSowingMachineAIRquirements() end
+function SowingMachine.getWearMultiplier() end
+function SowingMachine.initSpecialization() end
+function SowingMachine.loadSpecValueSeedFillTypes() end
+function SowingMachine.loadWorkAreaFromXML() end
+function SowingMachine.onChangedFillType() end
+function SowingMachine.onDeactivate() end
+function SowingMachine.onDelete() end
+function SowingMachine.onDraw() end
+function SowingMachine.onEndWorkAreaProcessing() end
+function SowingMachine.onLoad() end
+function SowingMachine.onPostLoad() end
+function SowingMachine.onReadStream() end
+function SowingMachine.onRegisterActionEvents() end
+function SowingMachine.onStartWorkAreaProcessing() end
+function SowingMachine.onStateChange() end
+function SowingMachine.onTurnedOff() end
+function SowingMachine.onTurnedOn() end
+function SowingMachine.onUpdate() end
+function SowingMachine.onUpdateTick() end
+function SowingMachine.onWriteStream() end
+function SowingMachine.prerequisitesPresent() end
+function SowingMachine.processSowingMachineArea() end
+function SowingMachine.registerEventListeners() end
+function SowingMachine.registerFunctions() end
+function SowingMachine.registerOverwrittenFunctions() end
+function SowingMachine.saveToXMLFile() end
+function SowingMachine.setFillTypeSourceDisplayFillType() end
+function SowingMachine.setSeedFruitType() end
+function SowingMachine.setSeedIndex() end
+function SowingMachine.updateAiParameters() end
+function SowingMachine.updateChooseSeedActionEvent() end
+function SowingMachine.updateMissionSowingWarning() end

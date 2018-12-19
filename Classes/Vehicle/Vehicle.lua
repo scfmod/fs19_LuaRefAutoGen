@@ -1,0 +1,156 @@
+---@class Vehicle
+Vehicle = {
+    DAMAGED_SPEEDLIMIT_REDUCTION = 0.3,
+    INPUT_CONTEXT_NAME = 'VEHICLE',
+    INTERACTION_FLAG_ENTERABLE = 1,
+    INTERACTION_FLAG_NONE = 0,
+    NUM_INTERACTION_FLAGS = 1,
+    NUM_STATE_CHANGES = 8,
+    PROPERTY_STATE_LEASED = 2,
+    PROPERTY_STATE_MISSION = 3,
+    PROPERTY_STATE_NONE = 0,
+    PROPERTY_STATE_OWNED = 1,
+    PROPERTY_STATE_SHOP_CONFIG = 4,
+    SPRING_SCALE = 10,
+    STATE_CHANGE_AI_END_LINE = 7,
+    STATE_CHANGE_AI_START_LINE = 6,
+    STATE_CHANGE_ATTACH = 1,
+    STATE_CHANGE_DETACH = 2,
+    STATE_CHANGE_FILLTYPE_CHANGE = 8,
+    STATE_CHANGE_LOWER_ALL_IMPLEMENTS = 3,
+    STATE_CHANGE_MOTOR_TURN_OFF = 5,
+    STATE_CHANGE_MOTOR_TURN_ON = 4,
+    classId = 2,
+    className = 'Vehicle',
+    debugNetworkUpdate = false,
+    defaultLength = 8,
+    defaultWidth = 8,
+}
+
+function Vehicle.actionEventToggleSelection() end
+function Vehicle.activate() end
+function Vehicle.addActionEvent() end
+function Vehicle.addNodeObjectMapping() end
+function Vehicle.addSubselection() end
+function Vehicle.addToPhysics() end
+function Vehicle.addVehicleToAIImplementList() end
+function Vehicle.class() end
+function Vehicle.clearActionEventsTable() end
+function Vehicle.copy() end
+function Vehicle.createComponentJoint() end
+function Vehicle.dayChanged() end
+function Vehicle.deactivate() end
+function Vehicle.delete() end
+function Vehicle.doCheckSpeedLimit() end
+function Vehicle.doCollisionMaskCheck() end
+function Vehicle.draw() end
+function Vehicle.drawUIInfo() end
+function Vehicle.getActiveFarm() end
+function Vehicle.getAdditionalComponentMass() end
+function Vehicle.getAdditionalSchemaText() end
+function Vehicle.getCanBePickedUp() end
+function Vehicle.getCanBeReset() end
+function Vehicle.getCanBeSelected() end
+function Vehicle.getCanByMounted() end
+function Vehicle.getCanToggleSelectable() end
+function Vehicle.getChildVehicles() end
+function Vehicle.getDailyUpkeep() end
+function Vehicle.getDeactivateOnLeave() end
+function Vehicle.getDistanceToNode() end
+function Vehicle.getFillLevelInformation() end
+function Vehicle.getFullName() end
+function Vehicle.getInteractionHelp() end
+function Vehicle.getIsAIActive() end
+function Vehicle.getIsActive() end
+function Vehicle.getIsActiveForInput() end
+function Vehicle.getIsActiveForSound() end
+function Vehicle.getIsInUse() end
+function Vehicle.getIsLowered() end
+function Vehicle.getIsOnField() end
+function Vehicle.getIsOperating() end
+function Vehicle.getIsReadyForAutomatedTrainTravel() end
+function Vehicle.getIsSelected() end
+function Vehicle.getIsVehicleNode() end
+function Vehicle.getLastSpeed() end
+function Vehicle.getLimitedVehicleYPosition() end
+function Vehicle.getName() end
+function Vehicle.getOperatingTime() end
+function Vehicle.getOwner() end
+function Vehicle.getParentComponent() end
+function Vehicle.getPrice() end
+function Vehicle.getPropertyState() end
+function Vehicle.getReloadXML() end
+function Vehicle.getRepairPrice() end
+function Vehicle.getRootVehicle() end
+function Vehicle.getSelectedObject() end
+function Vehicle.getSelectedVehicle() end
+function Vehicle.getSellPrice() end
+function Vehicle.getSpecValueAge() end
+function Vehicle.getSpecValueCombinations() end
+function Vehicle.getSpecValueDailyUpkeep() end
+function Vehicle.getSpecValueOperatingTime() end
+function Vehicle.getSpecValueSlots() end
+function Vehicle.getSpecValueSpeedLimit() end
+function Vehicle.getSpecValueWorkingWidth() end
+function Vehicle.getSpeedLimit() end
+function Vehicle.getTailwaterDepth() end
+function Vehicle.getTotalMass() end
+function Vehicle.getUpdatePriority() end
+function Vehicle.getVehicleDamage() end
+function Vehicle.getWorkLoad() end
+function Vehicle.hasInputConflictWithSelection() end
+function Vehicle.init() end
+function Vehicle.interact() end
+function Vehicle.isa() end
+function Vehicle.load() end
+function Vehicle.loadComponentFromXML() end
+function Vehicle.loadComponentJointFromXML() end
+function Vehicle.loadFinished() end
+function Vehicle.loadSchemaOverlay() end
+function Vehicle.loadSpecValueCombinations() end
+function Vehicle.loadSpecValueSpeedLimit() end
+function Vehicle.loadSpecValueWorkingWidth() end
+function Vehicle.new() end
+function Vehicle.onVehicleWakeUpCallback() end
+function Vehicle.prefixSchemaOverlayName() end
+function Vehicle.raiseStateChange() end
+function Vehicle.readStream() end
+function Vehicle.readUpdateStream() end
+function Vehicle.registerActionEvents() end
+function Vehicle.registerEvents() end
+function Vehicle.registerFunctions() end
+function Vehicle.registerInteractionFlag() end
+function Vehicle.registerSelectableObjects() end
+function Vehicle.registerStateChange() end
+function Vehicle.removeActionEvent() end
+function Vehicle.removeActionEvents() end
+function Vehicle.removeFromPhysics() end
+function Vehicle.removeNodeObjectMapping() end
+function Vehicle.requestActionEventUpdate() end
+function Vehicle.saveStatsToXMLFile() end
+function Vehicle.saveToXMLFile() end
+function Vehicle.selectVehicle() end
+function Vehicle.setAbsolutePosition() end
+function Vehicle.setBroken() end
+function Vehicle.setComponentJointFrame() end
+function Vehicle.setComponentJointRotLimit() end
+function Vehicle.setComponentJointTransLimit() end
+function Vehicle.setLoadingState() end
+function Vehicle.setMassDirty() end
+function Vehicle.setOperatingTime() end
+function Vehicle.setRelativePosition() end
+function Vehicle.setSelectedObject() end
+function Vehicle.setSelectedVehicle() end
+function Vehicle.setWorldPosition() end
+function Vehicle.setWorldPositionQuaternion() end
+function Vehicle.superClass() end
+function Vehicle.unselectVehicle() end
+function Vehicle.update() end
+function Vehicle.updateActionEvents() end
+function Vehicle.updateEnd() end
+function Vehicle.updateMass() end
+function Vehicle.updateSelectableObjects() end
+function Vehicle.updateTick() end
+function Vehicle.updateVehicleSpeed() end
+function Vehicle.writeStream() end
+function Vehicle.writeUpdateStream() end
